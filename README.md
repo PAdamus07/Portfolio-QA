@@ -2,7 +2,8 @@
 <p><strong>Aspirujący tester manualny</strong> · Testy manualne · API · SQL · Automatyzacja</p>
 
 <h2>O mnie</h2>
-<p>Jestem aspirującym testerem manualnym, koncentrującym się na testach funkcjonalnych i eksploracyjnych aplikacji. Równocześnie rozwijam umiejętności w testach API, SQL oraz automatyzacji, które pokazuję w praktycznych projektach w tym repozytorium. Zachęcam do sprawdzenia mojej dokumentacji testerskiej.</p>
+<p>Cześć. Jestem aspirującym testerem manualnym, który dopiero zaczyna swoją przygodę w tej dziedzinie. Skupiam się głównie na testach funkcjonalnych i eksploracyjnych aplikacji.
+Ale to nie wszystko! Równocześnie uczę się też testów API, SQL i automatyzacji. Pracuję nad praktycznymi projektami, które znajdziecie w tym repozytorium. Naprawdę zachęcam do zajrzenia do mojej dokumentacji testerskiej .</p>
 
 
 <h2>👨‍💻 Projekty </h2>
@@ -41,7 +42,7 @@
 - <b>ISTQB Foundation — w trakcie przygotowań</b>
 
 <h2> 🧪 Dlaczego QA? </h2>
-<p>Zawsze fascynowało mnie odkrywanie, jak działają aplikacje „od środka” — nie tylko jako użytkownik, ale jako osoba, która potrafi znaleźć ich słabe punkty. Testowanie daje mi satysfakcję z rozwiązywania problemów, logicznego myślenia i wpływu na jakość produktu. QA to dla mnie nie tylko sprawdzanie — to dbanie o doświadczenie użytkownika i współtworzenie czegoś lepszego.</p>
+<p>Od dawna fascynowało mnie odkrywanie, jak działają aplikacje „od środka” — nie tylko jako użytkownik, ale jako osoba, która potrafi znaleźć ich słabe punkty. Testowanie daje mi satysfakcję z rozwiązywania problemów, logicznego myślenia i wpływu na jakość produktu. QA to dla mnie nie tylko sprawdzanie — to też dbanie o dostarczenie pozytywnego doświadczenia użytkownikowi i współtworzenie czegoś lepszego.</p>
 
 
 
