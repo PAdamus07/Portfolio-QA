@@ -39,7 +39,8 @@ Ale to nie wszystko! Równocześnie uczę się też testów API, SQL i automatyz
 - <b> Język angielski na poziomie B2</b>
 
 <h2>📚 Kursy i certyfikaty </h2>
-- <b>ISTQB Foundation — w trakcie przygotowań</b>
+  - <b>ISTQB Foundation — w trakcie przygotowań</b><br>
+  - <b>SQLBolt – interaktywny kurs SQL</b>
 
 <h2> 🧪 Dlaczego QA? </h2>
 <p>Od dawna fascynowało mnie odkrywanie, jak działają aplikacje „od środka” — nie tylko jako użytkownik, ale jako osoba, która potrafi znaleźć ich słabe punkty. Testowanie daje mi satysfakcję z rozwiązywania problemów, logicznego myślenia i wpływu na jakość produktu. QA to dla mnie nie tylko sprawdzanie — to też dbanie o dostarczenie pozytywnego doświadczenia użytkownikowi i współtworzenie czegoś lepszego.</p>
