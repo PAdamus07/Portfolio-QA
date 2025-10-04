@@ -1,0 +1,274 @@
+{
+	"id": "a74a28a7-a919-4a77-a816-4a680cbda369",
+	"name": "API-Portfolio",
+	"timestamp": "2025-10-04T03:20:21.829Z",
+	"collection_id": "48581825-7cfea081-e530-4a24-88d2-622acf039eca",
+	"folder_id": 0,
+	"environment_id": "48581825-a25aea5b-4827-4687-a33a-0f649320ce0f",
+	"totalPass": 15,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-10-04T03:20:19.413Z",
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "339ed224-2a3b-4f5b-9f1a-36d99cbdb475",
+			"name": "GET Users",
+			"url": "https://jsonplaceholder.typicode.com/users",
+			"time": 155,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Validate JSON schema": true,
+				"User data is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate JSON schema": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User data is correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				155
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Validate JSON schema": true,
+					"User data is correct": true
+				}
+			]
+		},
+		{
+			"id": "f0dd8883-415c-4e1d-b84d-ee6ac73a458a",
+			"name": "POST User",
+			"url": "https://jsonplaceholder.typicode.com/users",
+			"time": 414,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response time is less than 500ms": true,
+				"Validate JSON schema": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Validate JSON schema": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				414
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response time is less than 500ms": true,
+					"Validate JSON schema": true
+				}
+			]
+		},
+		{
+			"id": "d070514a-bb63-471a-ac63-a7ed53613548",
+			"name": "GET Users Invalid Data",
+			"url": "https://jsonplaceholder.typicode.com/users/12",
+			"time": 48,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				48
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "5b64ebb3-7ae1-461c-b297-c52a6268bc2f",
+			"name": "PUT User Data",
+			"url": "https://jsonplaceholder.typicode.com/users/3",
+			"time": 411,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": false,
+				"Validate JSON schema": true,
+				"User data is correct": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Validate JSON schema": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User data is correct": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				411
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": false,
+					"Validate JSON schema": true,
+					"User data is correct": true
+				}
+			]
+		},
+		{
+			"id": "06ddf171-979c-4315-8245-10fae330414c",
+			"name": "PATCH User Data",
+			"url": "https://jsonplaceholder.typicode.com/users/7",
+			"time": 163,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 300ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 300ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				163
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 300ms": true
+				}
+			]
+		},
+		{
+			"id": "9f70044a-79b5-4632-ba9d-d6384d9327bb",
+			"name": "DELETE User",
+			"url": "https://jsonplaceholder.typicode.com/users/8",
+			"time": 157,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 204": false,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				157
+			],
+			"allTests": [
+				{
+					"Status code is 204": false,
+					"Response time is less than 200ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1348,
+	"collection": {
+		"requests": [
+			{
+				"id": "339ed224-2a3b-4f5b-9f1a-36d99cbdb475",
+				"method": "GET"
+			},
+			{
+				"id": "f0dd8883-415c-4e1d-b84d-ee6ac73a458a",
+				"method": "POST"
+			},
+			{
+				"id": "d070514a-bb63-471a-ac63-a7ed53613548",
+				"method": "GET"
+			},
+			{
+				"id": "5b64ebb3-7ae1-461c-b297-c52a6268bc2f",
+				"method": "PUT"
+			},
+			{
+				"id": "06ddf171-979c-4315-8245-10fae330414c",
+				"method": "PATCH"
+			},
+			{
+				"id": "9f70044a-79b5-4632-ba9d-d6384d9327bb",
+				"method": "DELETE"
+			}
+		]
+	}
+}
