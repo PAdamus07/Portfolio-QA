@@ -1,0 +1,599 @@
+{
+	"info": {
+		"_postman_id": "7cfea081-e530-4a24-88d2-622acf039eca",
+		"name": "API-Portfolio",
+		"description": "## 🎯 Opis projektu\n\nTen projekt pokazuje moje umiejętności testowania REST API z wykorzystaniem darmowego mock API —\n\n[https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/)  \nPrzetestowano wszystkie główne metody HTTP: `GET`, `POST`, `PUT`, `PATCH`, `DELETE`.\n\nW projekcie znajdują się dwa środowiska:\n\n- **Dev**\n    \n- **Prod**\n    \n\nKażde z nich zawiera zmienne:\n\n- `base_url` – adres API\n    \n- `token` – pusta wartość\n    \n\nKażda metoda HTTP posiada **oddzielną dokumentację**",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48581825",
+		"_collection_link": "https://oooy3706-4874074.postman.co/workspace/9edb7336-4132-4f07-836e-9c2da1f4a60c/collection/48581825-7cfea081-e530-4a24-88d2-622acf039eca?action=share&source=collection_link&creator=48581825"
+	},
+	"item": [
+		{
+			"name": "GET Users",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//Verify status code",
+							"pm.test(\"Status code is 200\", function () { ",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"//Verify response time",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);",
+							"});",
+							"//Verify JSON schema",
+							"const expectedSchema = {",
+							"  \"type\": \"array\",",
+							"  \"items\": {",
+							"    \"type\": \"object\",",
+							"    \"properties\": {",
+							"      \"id\": {",
+							"        \"type\": \"integer\"",
+							"      },",
+							"      \"name\": {",
+							"        \"type\": \"string\"",
+							"      },",
+							"      \"username\": {",
+							"        \"type\": \"string\"",
+							"      },",
+							"      \"email\": {",
+							"        \"type\": \"string\"",
+							"      },",
+							"      \"address\": {",
+							"        \"type\": \"object\",",
+							"        \"properties\": {",
+							"          \"street\": {",
+							"            \"type\": \"string\"",
+							"          },",
+							"          \"suite\": {",
+							"            \"type\": \"string\"",
+							"          },",
+							"          \"city\": {",
+							"            \"type\": \"string\"",
+							"          },",
+							"          \"zipcode\": {",
+							"            \"type\": \"string\"",
+							"          },",
+							"          \"geo\": {",
+							"            \"type\": \"object\",",
+							"            \"properties\": {",
+							"              \"lat\": {",
+							"                \"type\": \"string\"",
+							"              },",
+							"              \"lng\": {",
+							"                \"type\": \"string\"",
+							"              }",
+							"            },",
+							"            \"required\": [",
+							"              \"lat\",",
+							"              \"lng\"",
+							"            ]",
+							"          }",
+							"        },",
+							"        \"required\": [",
+							"          \"street\",",
+							"          \"suite\",",
+							"          \"city\",",
+							"          \"zipcode\",",
+							"          \"geo\"",
+							"        ]",
+							"      },",
+							"      \"phone\": {",
+							"        \"type\": \"string\"",
+							"      },",
+							"      \"website\": {",
+							"        \"type\": \"string\"",
+							"      },",
+							"      \"company\": {",
+							"        \"type\": \"object\",",
+							"        \"properties\": {",
+							"          \"name\": {",
+							"            \"type\": \"string\"",
+							"          },",
+							"          \"catchPhrase\": {",
+							"            \"type\": \"string\"",
+							"          },",
+							"          \"bs\": {",
+							"            \"type\": \"string\"",
+							"          }",
+							"        },",
+							"        \"required\": [",
+							"          \"name\",",
+							"          \"catchPhrase\",",
+							"          \"bs\"",
+							"        ]",
+							"      }",
+							"    },",
+							"    \"required\": [",
+							"      \"id\",",
+							"      \"name\",",
+							"      \"username\",",
+							"      \"email\",",
+							"      \"address\",",
+							"      \"phone\",",
+							"      \"website\",",
+							"      \"company\"",
+							"    ]",
+							"  }",
+							"}",
+							"",
+							"pm.test(\"Validate JSON schema\", function() {",
+							"    pm.response.to.have.jsonSchema(expectedSchema);",
+							"})",
+							"",
+							"//Verify user data",
+							"pm.test(\"User data is correct\", function () {",
+							"    const jsonData = pm.response.json();",
+							"    jsonData.forEach(user => {",
+							"        pm.expect(user.id).to.be.a('number');",
+							"        pm.expect(user.name).to.be.a('string');",
+							"        pm.expect(user.username).to.be.a('string');",
+							"        pm.expect(user.email).to.be.a('string');",
+							"        pm.expect(user.address).to.have.property('street');",
+							"        pm.expect(user.address).to.have.property('suite');",
+							"        pm.expect(user.address).to.have.property('city');",
+							"        pm.expect(user.address).to.have.property('zipcode');",
+							"        pm.expect(user.address.geo).to.have.property('lat');",
+							"        pm.expect(user.address.geo).to.have.property('lng');",
+							"        pm.expect(user.phone).to.be.a('string');",
+							"        pm.expect(user.website).to.be.a('string');",
+							"        pm.expect(user.company).to.have.property('name');",
+							"        pm.expect(user.company).to.have.property('catchPhrase');",
+							"        pm.expect(user.company).to.have.property('bs');",
+							"    });",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}",
+					"host": [
+						"{{base_url}}"
+					]
+				},
+				"description": "## GET Users\n\nTo zapytanie pobiera listę użytkowników z API, korzystając z adresu [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users). Służy do uzyskania pełnych danych użytkowników — w tym informacji kontaktowych, adresowych i firmowych.\n\n### Cel\n\n- Pobranie wszystkich profili użytkowników.\n    \n- Każdy obiekt zawiera dane identyfikacyjne, adresowe i firmowe.\n    \n\n### Użycie\n\n- **Endpoint:** `GET` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)\n    \n- **Autoryzacja:** Brak (mock API)\n    \n- **Odpowiedź:** Tablica obiektów użytkowników z polami takimi jak `id`, `name`, `email`, `address`, `company`.\n    \n\n### Walidacje (skrypt testowy)\n\n1. **Kod statusu** — oczekiwany `200 OK`\n    \n2. **Czas odpowiedzi** — poniżej 200ms\n    \n3. **Struktura JSON** — sprawdzenie obecności wymaganych pól\n    \n4. **Poprawność danych** — typy danych i kompletność informacji"
+			},
+			"response": []
+		},
+		{
+			"name": "POST User",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//Verify status code",
+							"pm.test(\"Status code is 201\", function () { ",
+							"    pm.response.to.have.status(201);",
+							"});",
+							"//Verify response time",
+							"pm.test(\"Response time is less than 500ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(500);",
+							"});",
+							"//Verify JSON schema",
+							"const expectedSchema = {",
+							"  \"type\": \"object\",",
+							"  \"properties\": {",
+							"    \"id\": {",
+							"      \"type\": \"integer\"",
+							"    },",
+							"    \"name\": {",
+							"      \"type\": \"string\"",
+							"    },",
+							"    \"username\": {",
+							"      \"type\": \"string\"",
+							"    },",
+							"    \"email\": {",
+							"      \"type\": \"string\"",
+							"    },",
+							"    \"address\": {",
+							"      \"type\": \"object\",",
+							"      \"properties\": {",
+							"        \"street\": {",
+							"          \"type\": \"string\"",
+							"        },",
+							"        \"suite\": {",
+							"          \"type\": \"string\"",
+							"        },",
+							"        \"city\": {",
+							"          \"type\": \"string\"",
+							"        },",
+							"        \"zipcode\": {",
+							"          \"type\": \"string\"",
+							"        },",
+							"        \"geo\": {",
+							"          \"type\": \"object\",",
+							"          \"properties\": {",
+							"            \"lat\": {",
+							"              \"type\": \"string\"",
+							"            },",
+							"            \"lng\": {",
+							"              \"type\": \"string\"",
+							"            }",
+							"          },",
+							"          \"required\": [",
+							"            \"lat\",",
+							"            \"lng\"",
+							"          ]",
+							"        }",
+							"      },",
+							"      \"required\": [",
+							"        \"street\",",
+							"        \"suite\",",
+							"        \"city\",",
+							"        \"zipcode\",",
+							"        \"geo\"",
+							"      ]",
+							"    },",
+							"    \"phone\": {",
+							"      \"type\": \"string\"",
+							"    },",
+							"    \"website\": {",
+							"      \"type\": \"string\"",
+							"    },",
+							"    \"company\": {",
+							"      \"type\": \"object\",",
+							"      \"properties\": {",
+							"        \"name\": {",
+							"          \"type\": \"string\"",
+							"        },",
+							"        \"catchPhrase\": {",
+							"          \"type\": \"string\"",
+							"        },",
+							"        \"bs\": {",
+							"          \"type\": \"string\"",
+							"        }",
+							"      },",
+							"      \"required\": [",
+							"        \"name\",",
+							"        \"catchPhrase\",",
+							"        \"bs\"",
+							"      ]",
+							"    }",
+							"  },",
+							"  \"required\": [",
+							"    \"id\",",
+							"    \"name\",",
+							"    \"username\",",
+							"    \"email\",",
+							"    \"address\",",
+							"    \"phone\",",
+							"    \"website\",",
+							"    \"company\"",
+							"  ]",
+							"};",
+							"pm.test(\"Validate JSON schema\", function() {",
+							"    pm.response.to.have.jsonSchema(expectedSchema);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "//Create new user (mix of both dynamic and static data)\r\n{\r\n  \"name\": \"{{$randomFullName}}\",\r\n  \"username\": \"{{$randomUserName}}\",\r\n  \"email\": \"yoo@example.com\",\r\n  \"address\": {\r\n    \"street\": \"Okopowa\",\r\n    \"suite\": \"Apt. 101\",\r\n    \"city\": \"Gliwice\",\r\n    \"zipcode\": \"44-100\",\r\n    \"geo\": {\r\n      \"lat\": \"50.2945\",\r\n      \"lng\": \"18.6714\"\r\n    }\r\n  },\r\n  \"phone\": \"123-456-7890\",\r\n  \"website\": \"yooqa.dev\",\r\n  \"company\": {\r\n    \"name\": \"QA Masters\",\r\n    \"catchPhrase\": \"Testing made simple\",\r\n    \"bs\": \"automate and validate\"\r\n  }\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}",
+					"host": [
+						"{{base_url}}"
+					]
+				},
+				"description": "StartFragment\n\n## POST User\n\nTo zapytanie tworzy nowego użytkownika w systemie, wysyłając dane w formacie JSON na endpoint [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users). Służy do dodania profilu użytkownika z danymi osobistymi, adresem i informacjami o firmie.\n\n### Cel\n\n- Dodanie nowego użytkownika przez API.\n    \n- Body zawiera pola takie jak: `name`, `username`, `email`, `address`, `phone`, `website`, `company`.\n    \n\n### Użycie\n\n- **Endpoint:** `POST` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)\n    \n- **Autoryzacja:** Brak (mock API)\n    \n- **Body:** `application/json`\n    \n\n### Oczekiwana odpowiedź\n\n- **Status:** `201 Created`\n    \n- **Body:** Obiekt użytkownika z nadanym `id`\n    \n\n### Walidacje (skrypt testowy)\n\n1. **Kod statusu** — oczekiwany `201`\n    \n2. **Czas odpowiedzi** — poniżej 500ms\n    \n3. **Struktura JSON** — obecność wymaganych pól"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Users Invalid Data",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//Verify status code (invalid user endpoint)\r",
+							"pm.test(\"Status code is 404\", function () { \r",
+							"    pm.response.to.have.status(404);\r",
+							"});\r",
+							"//Verify response time\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/12",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"12"
+					]
+				},
+				"description": "## GET Invalid User\n\nZapytanie testuje zachowanie API przy próbie pobrania użytkownika o nieistniejącym ID (np. [https://jsonplaceholder.typicode.com/users/12](https://jsonplaceholder.typicode.com/users)).\n\n### Cel\n\n- Sprawdzenie odpowiedzi API na niepoprawne dane wejściowe.\n    \n- Walidacja obsługi błędów (np. pusty obiekt, brak danych, kod statusu).\n    \n\n### Użycie\n\n- **Endpoint:** `GET` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)`/12`\n    \n- **Autoryzacja:** Brak\n    \n- **Oczekiwana odpowiedź:**\n    \n    - Status: `404 Not Found`z pustym obiektem\n        \n    - Body: pusty obiekt `{}` lub brak danych\n        \n\n### Testy\n\n- Kod statusu `404`\n    \n- Czas odpowiedzi < 200ms\n    \n- Sprawdzenie, czy odpowiedź nie zawiera danych użytkownika"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT User Data",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"pm.test(\"Response time is less than 200ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(200); //Response time is higher than expected",
+							"});",
+							"",
+							"//Validate JSON schema",
+							"const expectedSchema = {",
+							"  \"type\": \"object\",",
+							"  \"items\": {",
+							"    \"type\": \"object\",",
+							"    \"properties\": {",
+							"      \"id\": {",
+							"        \"type\": \"integer\"",
+							"      },",
+							"      \"name\": {",
+							"        \"type\": \"string\"",
+							"      },",
+							"      \"username\": {",
+							"        \"type\": \"string\"",
+							"      },",
+							"      \"email\": {",
+							"        \"type\": \"string\"",
+							"      },",
+							"      \"address\": {",
+							"        \"type\": \"object\",",
+							"        \"properties\": {",
+							"          \"street\": {",
+							"            \"type\": \"string\"",
+							"          },",
+							"          \"suite\": {",
+							"            \"type\": \"string\"",
+							"          },",
+							"          \"city\": {",
+							"            \"type\": \"string\"",
+							"          },",
+							"          \"zipcode\": {",
+							"            \"type\": \"string\"",
+							"          },",
+							"          \"geo\": {",
+							"            \"type\": \"object\",",
+							"            \"properties\": {",
+							"              \"lat\": {",
+							"                \"type\": \"string\"",
+							"              },",
+							"              \"lng\": {",
+							"                \"type\": \"string\"",
+							"              }",
+							"            },",
+							"            \"required\": [",
+							"              \"lat\",",
+							"              \"lng\"",
+							"            ]",
+							"          }",
+							"        },",
+							"        \"required\": [",
+							"          \"street\",",
+							"          \"suite\",",
+							"          \"city\",",
+							"          \"zipcode\",",
+							"          \"geo\"",
+							"        ]",
+							"      },",
+							"      \"phone\": {",
+							"        \"type\": \"string\"",
+							"      },",
+							"      \"website\": {",
+							"        \"type\": \"string\"",
+							"      },",
+							"      \"company\": {",
+							"        \"type\": \"object\",",
+							"        \"properties\": {",
+							"          \"name\": {",
+							"            \"type\": \"string\"",
+							"          },",
+							"          \"catchPhrase\": {",
+							"            \"type\": \"string\"",
+							"          },",
+							"          \"bs\": {",
+							"            \"type\": \"string\"",
+							"          }",
+							"        },",
+							"        \"required\": [",
+							"          \"name\",",
+							"          \"catchPhrase\",",
+							"          \"bs\"",
+							"        ]",
+							"      }",
+							"    },",
+							"    \"required\": [",
+							"      \"id\",",
+							"      \"name\",",
+							"      \"username\",",
+							"      \"email\",",
+							"      \"address\",",
+							"      \"phone\",",
+							"      \"website\",",
+							"      \"company\"",
+							"    ]",
+							"  }",
+							"}",
+							"",
+							"pm.test(\"Validate JSON schema\", function() {",
+							"    pm.response.to.have.jsonSchema(expectedSchema);",
+							"})",
+							"",
+							"//Verify user data",
+							"pm.test(\"User data is correct\", function () {",
+							"    const user = pm.response.json();",
+							"    pm.expect(user.id).to.be.a('number');",
+							"    pm.expect(user.name).to.be.a('string');",
+							"    pm.expect(user.username).to.be.a('string');",
+							"    pm.expect(user.email).to.be.a('string');",
+							"    pm.expect(user.address).to.have.property('street');",
+							"    pm.expect(user.address).to.have.property('suite');",
+							"    pm.expect(user.address).to.have.property('city');",
+							"    pm.expect(user.address).to.have.property('zipcode');",
+							"    pm.expect(user.address.geo).to.have.property('lat');",
+							"    pm.expect(user.address.geo).to.have.property('lng');",
+							"    pm.expect(user.phone).to.be.a('string');",
+							"    pm.expect(user.website).to.be.a('string');",
+							"    pm.expect(user.company).to.have.property('name');",
+							"    pm.expect(user.company).to.have.property('catchPhrase');",
+							"    pm.expect(user.company).to.have.property('bs');",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "//Replace existing data\r\n{\r\n  \"id\": 3,\r\n  \"name\": \"Jan Kowalski\",\r\n  \"username\": \"jk32\",\r\n  \"email\": \"jan.kowalski@example.com\",\r\n  \"address\": {\r\n    \"street\": \"Tarnogórska 101\",\r\n    \"suite\": \"Apt. 5\",\r\n    \"city\": \"Warszawa\",\r\n    \"zipcode\": \"44-100\",\r\n    \"geo\": {\r\n      \"lat\": \"50.2945\",\r\n      \"lng\": \"18.6714\"\r\n    }\r\n  },\r\n  \"phone\": \"123-556-7890\",\r\n  \"website\": \"kowalskisolutions.dev\",\r\n  \"company\": {\r\n    \"name\": \"QA heroes\",\r\n    \"catchPhrase\": \"Testing made elegant\",\r\n    \"bs\": \"automate and validate\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/3",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"3"
+					]
+				},
+				"description": "## PUT User Data\n\nAktualizuje dane użytkownika o `id: 3`, zastępując cały obiekt użytkownika nowymi informacjami.\n\n### Cel\n\n- Nadpisanie wszystkich danych użytkownika (imię, adres, firma itd.)\n    \n\n### Użycie\n\n- **Endpoint:** `PUT` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)`/3`\n    \n- **Typ:** `application/json`\n    \n- **Body:** pełny obiekt użytkownika z nowymi danymi\n    \n\n### Odpowiedź\n\n- **Status:** `200 OK`\n    \n- **Body:** zaktualizowany obiekt użytkownika\n    \n\n### Testy\n\n- Kod statusu = 200\n    \n- Czas odpowiedzi przekracza spodziewany próg\n    \n- Sprawdzenie struktury JSON i typów danych"
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH User Data",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//Verify status code is 200\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"//Response time validation\r",
+							"pm.test(\"Response time is less than 300ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(300); //Response time higher than expected\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "//Modify selected data\r\n{\r\n  \"name\": \"{{$randomFullName}}\",\r\n  \"username\": \"krill\",\r\n  \"address\": {\r\n    \"zipcode\": \"48-320\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/7",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"7"
+					]
+				},
+				"description": "## PATCH User Data\n\nCzęściowo aktualizuje dane użytkownika o `id: 7`, modyfikując tylko wybrane pola.\n\n### Cel\n\nZmiana wybranych danych użytkownika (np. imię, username, kod pocztowy), bez nadpisywania całego obiektu.\n\n### Użycie\n\n- **Endpoint:** `PATCH` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)`/7`\n    \n- **Typ:** `application/json`\n    \n- **Body:** tylko pola do aktualizacji\n    \n\n### Odpowiedź\n\n- **Status:** `200 OK`\n    \n- **Body:** obiekt użytkownika z wprowadzonymi zmianami\n    \n\n### Testy\n\n- Kod statusu = 200\n    \n- Czas odpowiedzi przekracza spodziewany próg >300ms"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE User",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//Verify sucessful deletion of resource\r",
+							"pm.test(\"Status code is 204\", function () {\r",
+							"    pm.response.to.have.status(204);  // Expected by REST standards, got 200 from mock API\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/8",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"8"
+					]
+				},
+				"description": "## DELETE User\n\nUsuwa użytkownika o `id: 8` z systemu.\n\n### Cel\n\n- Trwałe usunięcie użytkownika z bazy danych\n    \n- Przydatne w testach operacji DELETE i zarządzaniu użytkownikami\n    \n\n### Użycie\n\n- **Endpoint:** `DELETE` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)`/8`\n    \n- **Typ:** brak body — ID użytkownika w ścieżce\n    \n\n### Odpowiedź\n\n- **Status:** `204 No Content`\n    \n- **Body:** zazwyczaj puste `{}` lub brak treści\n    \n\n### Testy\n\n- Kod statusu = 200 (spodziewany 204)\n    \n- Czas odpowiedzi przekracza spodziewany próg >200ms"
+			},
+			"response": []
+		}
+	]
+}
