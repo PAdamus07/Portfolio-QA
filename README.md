@@ -13,7 +13,7 @@ Ale to nie wszystko! Równocześnie uczę się też testów API, SQL i automatyz
 - <b>Testy API</b>
   - [Projekt testu API](https://github.com/PAdamus07/Portfolio-QA/tree/main/API-Portfolio)
 - <b>Testy baz danych</b>
-  - [Projekt testu ]()
+  - [Projekt testu baz danych z SQL](https://github.com/PAdamus07/Portfolio-QA/tree/main/SQL-Portfolio)
 - <b>Testy automatyzacyjne</b>
   - [Projekt testu ]()
 
