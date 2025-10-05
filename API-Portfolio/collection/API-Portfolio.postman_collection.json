@@ -161,7 +161,46 @@
 						"{{base_url}}"
 					]
 				},
-				"description": "## GET Users\n\nTo zapytanie pobiera listę użytkowników z API, korzystając z adresu [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users). Służy do uzyskania pełnych danych użytkowników — w tym informacji kontaktowych, adresowych i firmowych.\n\n### Cel\n\n- Pobranie wszystkich profili użytkowników.\n    \n- Każdy obiekt zawiera dane identyfikacyjne, adresowe i firmowe.\n    \n\n### Użycie\n\n- **Endpoint:** `GET` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)\n    \n- **Autoryzacja:** Brak (mock API)\n    \n- **Odpowiedź:** Tablica obiektów użytkowników z polami takimi jak `id`, `name`, `email`, `address`, `company`.\n    \n\n### Walidacje (skrypt testowy)\n\n1. **Kod statusu** — oczekiwany `200 OK`\n    \n2. **Czas odpowiedzi** — poniżej 200ms\n    \n3. **Struktura JSON** — sprawdzenie obecności wymaganych pól\n    \n4. **Poprawność danych** — typy danych i kompletność informacji"
+				"description": "## GET Users\n\nTo zapytanie pobiera listę użytkowników z API, korzystając z adresu [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users). Służy do uzyskania pełnych danych użytkowników — w tym informacji kontaktowych, adresowych i firmowych.\n\n### Cel\n\n- Pobranie wszystkich profili użytkowników.\n    \n- Każdy obiekt zawiera dane identyfikacyjne, adresowe i firmowe.\n    \n\n### Użycie\n\n- **Endpoint:** `GET` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)\n    \n- **Autoryzacja:** Brak (mock API)\n    \n- **Odpowiedź:** Tablica obiektów użytkowników z polami takimi jak `id`, `name`, `email`, `address`, `company`.\n    \n\n### Oczekiwana odpowiedź\n\n- **Status:** `200 OK`\n    \n\n### Walidacje (skrypt testowy)\n\n1. **Kod statusu** — oczekiwany `200 OK`\n    \n2. Czas odpowiedzi nie przekracza spodziewanego progu >200ms\n    \n3. **Struktura JSON** — sprawdzenie obecności wymaganych pól\n    \n4. **Poprawność danych** — typy danych i kompletność informacji"
+			},
+			"response": []
+		},
+		{
+			"name": "GET Users Invalid Data",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//Verify status code (invalid user endpoint)\r",
+							"pm.test(\"Status code is 404\", function () { \r",
+							"    pm.response.to.have.status(404);\r",
+							"});\r",
+							"//Verify response time\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/12",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"12"
+					]
+				},
+				"description": "## GET Invalid User\n\nZapytanie testuje zachowanie API przy próbie pobrania użytkownika o nieistniejącym ID (np. [https://jsonplaceholder.typicode.com/users/12](https://jsonplaceholder.typicode.com/users)).\n\n### Cel\n\n- Sprawdzenie odpowiedzi API na niepoprawne dane wejściowe.\n    \n- Walidacja obsługi błędów (np. pusty obiekt, brak danych, kod statusu).\n    \n\n### Użycie\n\n- **Endpoint:** `GET` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)`/12`\n    \n- **Autoryzacja:** Brak\n    \n- **Oczekiwana odpowiedź:**\n    \n    - Status: `404 Not Found`z pustym obiektem\n        \n    - Body: pusty obiekt `{}` lub brak danych\n        \n\n### Walidacje (skrypt testowy)\n\n- Kod statusu `404`\n    \n- Czas odpowiedzi nie przekracza spodziewanego progu >200ms\n    \n- Sprawdzenie, czy odpowiedź nie zawiera danych użytkownika\n    \n\n**Test negatywny — API nie powinno zwracać 200 dla nieistniejącego ID użytkownika**"
 			},
 			"response": []
 		},
@@ -300,26 +339,120 @@
 						"{{base_url}}"
 					]
 				},
-				"description": "StartFragment\n\n## POST User\n\nTo zapytanie tworzy nowego użytkownika w systemie, wysyłając dane w formacie JSON na endpoint [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users). Służy do dodania profilu użytkownika z danymi osobistymi, adresem i informacjami o firmie.\n\n### Cel\n\n- Dodanie nowego użytkownika przez API.\n    \n- Body zawiera pola takie jak: `name`, `username`, `email`, `address`, `phone`, `website`, `company`.\n    \n\n### Użycie\n\n- **Endpoint:** `POST` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)\n    \n- **Autoryzacja:** Brak (mock API)\n    \n- **Body:** `application/json`\n    \n\n### Oczekiwana odpowiedź\n\n- **Status:** `201 Created`\n    \n- **Body:** Obiekt użytkownika z nadanym `id`\n    \n\n### Walidacje (skrypt testowy)\n\n1. **Kod statusu** — oczekiwany `201`\n    \n2. **Czas odpowiedzi** — poniżej 500ms\n    \n3. **Struktura JSON** — obecność wymaganych pól"
+				"description": "## POST User\n\nTo zapytanie tworzy nowego użytkownika w systemie, wysyłając dane w formacie JSON na endpoint [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users). Służy do dodania profilu użytkownika z danymi osobistymi, adresem i informacjami o firmie.\n\n### Cel\n\n- Dodanie nowego użytkownika przez API.\n    \n- Body zawiera pola takie jak: `name`, `username`, `email`, `address`, `phone`, `website`, `company`.\n    \n\n### Użycie\n\n- **Endpoint:** `POST` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)\n    \n- **Autoryzacja:** Brak (mock API)\n    \n- **Body:** `application/json`\n    \n\n### Oczekiwana odpowiedź\n\n- **Status:** `201 Created`\n    \n- **Body:** Obiekt użytkownika z nadanym `id`\n    \n\n### Walidacje (skrypt testowy)\n\n- **Kod statusu** — oczekiwany `201`\n    \n- Czas odpowiedzi nie przekracza spodziewanego progu >500ms\n    \n- **Struktura JSON** — obecność wymaganych pól"
 			},
 			"response": []
 		},
 		{
-			"name": "GET Users Invalid Data",
+			"name": "POST User Invalid Data",
 			"event": [
 				{
 					"listen": "test",
 					"script": {
 						"exec": [
-							"//Verify status code (invalid user endpoint)\r",
-							"pm.test(\"Status code is 404\", function () { \r",
-							"    pm.response.to.have.status(404);\r",
-							"});\r",
-							"//Verify response time\r",
-							"pm.test(\"Response time is less than 200ms\", function () {\r",
-							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
-							"});\r",
-							""
+							"//Verify status code",
+							"pm.test(\"Status code is 201\", function () { ",
+							"    pm.response.to.have.status(201);",
+							"});",
+							"//Verify response time",
+							"pm.test(\"Response time is less than 500ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(500);",
+							"});",
+							"//Verify JSON schema",
+							"const expectedSchema = {",
+							"  \"type\": \"object\",",
+							"  \"properties\": {",
+							"    \"id\": {",
+							"      \"type\": \"integer\"",
+							"    },",
+							"    \"name\": {",
+							"      \"type\": \"string\"",
+							"    },",
+							"    \"username\": {",
+							"      \"type\": \"string\"",
+							"    },",
+							"    \"email\": {",
+							"      \"type\": \"string\"",
+							"    },",
+							"    \"address\": {",
+							"      \"type\": \"object\",",
+							"      \"properties\": {",
+							"        \"street\": {",
+							"          \"type\": \"string\"",
+							"        },",
+							"        \"suite\": {",
+							"          \"type\": \"string\"",
+							"        },",
+							"        \"city\": {",
+							"          \"type\": \"string\"",
+							"        },",
+							"        \"zipcode\": {",
+							"          \"type\": \"string\"",
+							"        },",
+							"        \"geo\": {",
+							"          \"type\": \"object\",",
+							"          \"properties\": {",
+							"            \"lat\": {",
+							"              \"type\": \"string\"",
+							"            },",
+							"            \"lng\": {",
+							"              \"type\": \"string\"",
+							"            }",
+							"          },",
+							"          \"required\": [",
+							"            \"lat\",",
+							"            \"lng\"",
+							"          ]",
+							"        }",
+							"      },",
+							"      \"required\": [",
+							"        \"street\",",
+							"        \"suite\",",
+							"        \"city\",",
+							"        \"zipcode\",",
+							"        \"geo\"",
+							"      ]",
+							"    },",
+							"    \"phone\": {",
+							"      \"type\": \"string\"",
+							"    },",
+							"    \"website\": {",
+							"      \"type\": \"string\"",
+							"    },",
+							"    \"company\": {",
+							"      \"type\": \"object\",",
+							"      \"properties\": {",
+							"        \"name\": {",
+							"          \"type\": \"string\"",
+							"        },",
+							"        \"catchPhrase\": {",
+							"          \"type\": \"string\"",
+							"        },",
+							"        \"bs\": {",
+							"          \"type\": \"string\"",
+							"        }",
+							"      },",
+							"      \"required\": [",
+							"        \"name\",",
+							"        \"catchPhrase\",",
+							"        \"bs\"",
+							"      ]",
+							"    }",
+							"  },",
+							"  \"required\": [",
+							"    \"id\",",
+							"    \"name\",",
+							"    \"username\",",
+							"    \"email\",",
+							"    \"address\",",
+							"    \"phone\",",
+							"    \"website\",",
+							"    \"company\"",
+							"  ]",
+							"};",
+							"pm.test(\"Validate JSON schema\", function() {",
+							"    pm.response.to.have.jsonSchema(expectedSchema);",
+							"});"
 						],
 						"type": "text/javascript",
 						"packages": {},
@@ -328,18 +461,24 @@
 				}
 			],
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "//Create new user (already existing email and name)\r\n{\r\n  \"name\": \"Ervin Howell\",\r\n  \"username\": \"{{$randomUserName}}\",\r\n  \"email\": \"Sincere@april.biz\",\r\n  \"address\": {\r\n    \"street\": \"Krakowska\",\r\n    \"suite\": \"Apt. 101\",\r\n    \"city\": \"Olkusz\",\r\n    \"zipcode\": \"44-100\",\r\n    \"geo\": {\r\n      \"lat\": \"50.2945\",\r\n      \"lng\": \"18.6714\"\r\n    }\r\n  },\r\n  \"phone\": \"123-456-7890\",\r\n  \"website\": \"easter.dev\",\r\n  \"company\": {\r\n    \"name\": \"QA Enigeneers\",\r\n    \"catchPhrase\": \"Testing made efficient\",\r\n    \"bs\": \"automate and validate response\"\r\n  }\r\n}\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
-					"raw": "{{base_url}}/12",
+					"raw": "{{base_url}}",
 					"host": [
 						"{{base_url}}"
-					],
-					"path": [
-						"12"
 					]
 				},
-				"description": "## GET Invalid User\n\nZapytanie testuje zachowanie API przy próbie pobrania użytkownika o nieistniejącym ID (np. [https://jsonplaceholder.typicode.com/users/12](https://jsonplaceholder.typicode.com/users)).\n\n### Cel\n\n- Sprawdzenie odpowiedzi API na niepoprawne dane wejściowe.\n    \n- Walidacja obsługi błędów (np. pusty obiekt, brak danych, kod statusu).\n    \n\n### Użycie\n\n- **Endpoint:** `GET` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)`/12`\n    \n- **Autoryzacja:** Brak\n    \n- **Oczekiwana odpowiedź:**\n    \n    - Status: `404 Not Found`z pustym obiektem\n        \n    - Body: pusty obiekt `{}` lub brak danych\n        \n\n### Testy\n\n- Kod statusu `404`\n    \n- Czas odpowiedzi < 200ms\n    \n- Sprawdzenie, czy odpowiedź nie zawiera danych użytkownika"
+				"description": "## **POST User — duplikat danych**\n\nTo zapytanie próbuje utworzyć nowego użytkownika w systemie, wysyłając dane w formacie JSON na endpoint [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users). Służy do dodania profilu użytkownika z danymi osobistymi, adresem i informacjami o firmie. W tym przypadku użyto danych, które już istnieją w bazie (email i imię).\n\n### **Cel**\n\n- Sprawdzenie, czy API odrzuca próbę dodania użytkownika z istniejącym adresem email i imieniem.\n    \n- **Body** zawiera pola takie jak: name, username, email, address, phone, website, company.\n    \n\n### **Użycie**\n\n- **Endpoint:**`POST`  \n    [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)\n    \n- **Autoryzacja:** Brak (mock API)\n    \n- **Body:** application/json\n    \n\n### **Oczekiwana odpowiedź**\n\n- **Status:**409 Conflict lub inny błąd walidacji\n    \n- **Body:** Informacja o błędzie — użytkownik już istnieje\n    \n\n### **Faktyczna odpowiedź (mock API)**\n\n- **Status:** `201 Created`\n    \n- **Body:** Obiekt użytkownika z nadanym id — brak walidacji duplikatów\n    \n\n### **Walidacje (skrypt testowy)**\n\n- Kod statusu — nie powinien być 201\n    \n- Czas odpowiedzi nie przekracza spodziewanego progu >500ms\n    \n- Struktura JSON — obecność pól: id, email, name\n    \n\n**Test negatywny — API nie powinno tworzyć użytkownika z istniejącym emailem**"
 			},
 			"response": []
 		},
@@ -354,7 +493,7 @@
 							"    pm.response.to.have.status(200);",
 							"});",
 							"pm.test(\"Response time is less than 200ms\", function () {",
-							"    pm.expect(pm.response.responseTime).to.be.below(200); //Response time is higher than expected",
+							"    pm.expect(pm.response.responseTime).to.be.below(200); //Response time higher than expected on the first request",
 							"});",
 							"",
 							"//Validate JSON schema",
@@ -505,7 +644,7 @@
 						"3"
 					]
 				},
-				"description": "## PUT User Data\n\nAktualizuje dane użytkownika o `id: 3`, zastępując cały obiekt użytkownika nowymi informacjami.\n\n### Cel\n\n- Nadpisanie wszystkich danych użytkownika (imię, adres, firma itd.)\n    \n\n### Użycie\n\n- **Endpoint:** `PUT` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)`/3`\n    \n- **Typ:** `application/json`\n    \n- **Body:** pełny obiekt użytkownika z nowymi danymi\n    \n\n### Odpowiedź\n\n- **Status:** `200 OK`\n    \n- **Body:** zaktualizowany obiekt użytkownika\n    \n\n### Testy\n\n- Kod statusu = 200\n    \n- Czas odpowiedzi przekracza spodziewany próg\n    \n- Sprawdzenie struktury JSON i typów danych"
+				"description": "## PUT User Data\n\nAktualizuje dane użytkownika o `id: 3`, zastępując cały obiekt użytkownika nowymi informacjami.\n\n### Cel\n\n- Nadpisanie wszystkich danych użytkownika (imię, adres, firma itd.)\n    \n\n### Użycie\n\n- **Endpoint:** `PUT` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)`/3`\n    \n- **Typ:** `application/json`\n    \n- **Body:** pełny obiekt użytkownika z nowymi danymi\n    \n\n### Oczekiwana odpowiedź\n\n- **Status:** `200 OK`\n    \n- **Body:** zaktualizowany obiekt użytkownika\n    \n\n### Walidacje (skrypt testowy)\n\n- Kod statusu = 200\n    \n- Czas odpowiedzi nie przekracza spodziewanego progu >200ms\n    \n- Sprawdzenie struktury JSON i typów danych"
 			},
 			"response": []
 		},
@@ -522,7 +661,7 @@
 							"});\r",
 							"//Response time validation\r",
 							"pm.test(\"Response time is less than 300ms\", function () {\r",
-							"    pm.expect(pm.response.responseTime).to.be.below(300); //Response time higher than expected\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(300); \r",
 							"});\r",
 							""
 						],
@@ -553,7 +692,7 @@
 						"7"
 					]
 				},
-				"description": "## PATCH User Data\n\nCzęściowo aktualizuje dane użytkownika o `id: 7`, modyfikując tylko wybrane pola.\n\n### Cel\n\nZmiana wybranych danych użytkownika (np. imię, username, kod pocztowy), bez nadpisywania całego obiektu.\n\n### Użycie\n\n- **Endpoint:** `PATCH` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)`/7`\n    \n- **Typ:** `application/json`\n    \n- **Body:** tylko pola do aktualizacji\n    \n\n### Odpowiedź\n\n- **Status:** `200 OK`\n    \n- **Body:** obiekt użytkownika z wprowadzonymi zmianami\n    \n\n### Testy\n\n- Kod statusu = 200\n    \n- Czas odpowiedzi przekracza spodziewany próg >300ms"
+				"description": "## PATCH User Data\n\nCzęściowo aktualizuje dane użytkownika o `id: 7`, modyfikując tylko wybrane pola.\n\n### Cel\n\n- Zmiana wybranych danych użytkownika (np. imię, username, kod pocztowy), bez nadpisywania całego obiektu.\n    \n\n### Użycie\n\n- **Endpoint:** `PATCH` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)`/7`\n    \n- **Typ:** `application/json`\n    \n- **Body:** tylko pola do aktualizacji\n    \n\n### Oczekiwana odpowiedź\n\n- **Status:** `200 OK`\n    \n- **Body:** obiekt użytkownika z wprowadzonymi zmianami\n    \n\n### Walidacje (skrypt testowy)\n\n- Kod statusu = 200\n    \n- Czas odpowiedzi nie przekracza spodziewanego progu >300ms"
 			},
 			"response": []
 		},
@@ -591,7 +730,44 @@
 						"8"
 					]
 				},
-				"description": "## DELETE User\n\nUsuwa użytkownika o `id: 8` z systemu.\n\n### Cel\n\n- Trwałe usunięcie użytkownika z bazy danych\n    \n- Przydatne w testach operacji DELETE i zarządzaniu użytkownikami\n    \n\n### Użycie\n\n- **Endpoint:** `DELETE` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)`/8`\n    \n- **Typ:** brak body — ID użytkownika w ścieżce\n    \n\n### Odpowiedź\n\n- **Status:** `204 No Content`\n    \n- **Body:** zazwyczaj puste `{}` lub brak treści\n    \n\n### Testy\n\n- Kod statusu = 200 (spodziewany 204)\n    \n- Czas odpowiedzi przekracza spodziewany próg >200ms"
+				"description": "## DELETE User\n\nUsuwa użytkownika o `id: 8` z systemu.\n\n### Cel\n\n- Trwałe usunięcie użytkownika z bazy danych\n    \n- Przydatne w testach operacji DELETE i zarządzaniu użytkownikami\n    \n\n### Użycie\n\n- **Endpoint:** `DELETE` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)`/8`\n    \n- **Typ:** brak body — ID użytkownika w ścieżce\n    \n\n### Oczekiwana odpowiedź\n\n- **Status:** `204 No Content`\n    \n- **Body:** zazwyczaj puste `{}` lub brak treści\n    \n\n### Walidacje (skrypt testowy)\n\n- Kod statusu = 200 (spodziewany 204)\n    \n- Czas odpowiedzi nie przekracza spodziewanego progu >200ms"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE User Invalid ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 404\", function () {\r",
+							"    pm.response.to.have.status(404);  \r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/abc",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"abc"
+					]
+				},
+				"description": "## DELETE User Invalid ID\n\nUsuwa użytkownika o nieprawidłowym `id` z systemu.\n\n### Cel\n\n- Testowanie zachowania systemu przy próbie usunięcia użytkownika o nieistniejącym lub nieprawidłowym ID\n    \n\n### Użycie\n\n- **Endpoint:** `DELETE` [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)`/abc`\n    \n- **Typ:** brak body — ID użytkownika w ścieżce (nieprawidłowe ID)\n    \n\n### Oczekiwana odpowiedź\n\n- **Status:** `404 Not Found` lub inny odpowiedni kod błędu wskazujący, że użytkownik nie istnieje\n    \n- **Body:** komunikat błędu lub pusta odpowiedź\n    \n\n### **Faktyczna odpowiedź (mock API)**\n\n- Status: `200 OK`\n    \n\n### Walidacje (skrypt testowy)\n\n- Kod statusu = 200 (Spodziewany 404)\n    \n- Czas odpowiedzi nie przekracza spodziewanego progu >200ms\n    \n\n**Test negatywny — API nie powinno usuwać użytkownika o nieprawidłowym ID**"
 			},
 			"response": []
 		}
