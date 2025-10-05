@@ -5,7 +5,7 @@
 		"description": "## 🎯 Opis projektu\n\nTen projekt pokazuje moje umiejętności testowania REST API z wykorzystaniem darmowego mock API —\n\n[https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/)  \nPrzetestowano wszystkie główne metody HTTP: `GET`, `POST`, `PUT`, `PATCH`, `DELETE`.\n\nW projekcie znajdują się dwa środowiska:\n\n- **Dev**\n    \n- **Prod**\n    \n\nKażde z nich zawiera zmienne:\n\n- `base_url` – adres API\n    \n- `token` – pusta wartość\n    \n\nKażda metoda HTTP posiada **oddzielną dokumentację**",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "48581825",
-		"_collection_link": "https://oooy3706-4874074.postman.co/workspace/9edb7336-4132-4f07-836e-9c2da1f4a60c/collection/48581825-7cfea081-e530-4a24-88d2-622acf039eca?action=share&source=collection_link&creator=48581825"
+		"_collection_link": "https://oooy3706-4874074.postman.co/workspace/Yoo-Ooo's-Workspace~9edb7336-4132-4f07-836e-9c2da1f4a60c/collection/48581825-7cfea081-e530-4a24-88d2-622acf039eca?action=share&source=collection_link&creator=48581825"
 	},
 	"item": [
 		{
@@ -351,8 +351,8 @@
 					"script": {
 						"exec": [
 							"//Verify status code",
-							"pm.test(\"Status code is 201\", function () { ",
-							"    pm.response.to.have.status(201);",
+							"pm.test(\"Status code is 409\", function () { ",
+							"    pm.response.to.have.status(409);",
 							"});",
 							"//Verify response time",
 							"pm.test(\"Response time is less than 500ms\", function () {",
