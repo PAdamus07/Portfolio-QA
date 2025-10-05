@@ -49,35 +49,35 @@ Każde z nich zawiera zmienne:
     
 
 Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
-        <div class="col-md-3">Time</div><div class="col-md-9">Sat Oct 04 2025 05:58:27 GMT+0200 (czas środkowoeuropejski letni)</div>
+        <div class="col-md-3">Time</div><div class="col-md-9">Sun Oct 05 2025 02:31:04 GMT+0200 (czas środkowoeuropejski letni)</div>
         <div class="col-md-3">Exported with</div><div class="col-md-9">Newman v6.2.1</div>
         <div class="col-md-12">&nbsp;</div>
         <div class="col-md-4">&nbsp;</div><div class="col-md-4"><strong>Total</strong></div><div class="col-md-4"><strong>Failed</strong></div>
 
           <div class="col-md-4">Iterations</div><div class="col-md-4">1</div><div class="col-md-4">0</div>
-          <div class="col-md-4">Requests</div><div class="col-md-4">6</div><div class="col-md-4">0</div>
+          <div class="col-md-4">Requests</div><div class="col-md-4">8</div><div class="col-md-4">0</div>
           <div class="col-md-4">Prerequest Scripts</div><div class="col-md-4">0</div><div class="col-md-4">0</div>
-          <div class="col-md-4">Test Scripts</div><div class="col-md-4">6</div><div class="col-md-4">0</div>
-          <div class="col-md-4">Assertions</div><div class="col-md-4">17</div><div class="col-md-4">3</div>
+          <div class="col-md-4">Test Scripts</div><div class="col-md-4">8</div><div class="col-md-4">0</div>
+          <div class="col-md-4">Assertions</div><div class="col-md-4">22</div><div class="col-md-4">4</div>
 
         <div class="col-md-12">&nbsp;</div>
-        <div class="col-md-6">Total run duration</div><div class="col-md-6">1980ms</div>
-        <div class="col-md-6">Total data received</div><div class="col-md-6">3.05KB (approx)</div>
-        <div class="col-md-6">Average response time</div><div class="col-md-6">238ms</div>
+        <div class="col-md-6">Total run duration</div><div class="col-md-6">2.4s</div>
+        <div class="col-md-6">Total data received</div><div class="col-md-6">3.53KB (approx)</div>
+        <div class="col-md-6">Average response time</div><div class="col-md-6">198ms</div>
 
         <div class="col-md-12">&nbsp;</div>
-        <div class="col-md-3"><strong>Total Failures</strong></div><div class="col-md-6"><strong>3</strong></div>
+        <div class="col-md-3"><strong>Total Failures</strong></div><div class="col-md-6"><strong>4</strong></div>
     </div>
 
     <br/><h4>Requests</h4>
 
-                <div class="panel-group" id="collapse-request-867079fd-8a5a-456a-831a-f9f3c4d54629" role="tablist" aria-multiselectable="true">
+                <div class="panel-group" id="collapse-request-4fd42627-b312-4b36-af78-292cefbf5262" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-867079fd-8a5a-456a-831a-f9f3c4d54629">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-867079fd-8a5a-456a-831a-f9f3c4d54629" aria-controls="collapseOne">GET Users</a></h4>
+                        <div class="panel-heading" role="tab" id="requestHead-4fd42627-b312-4b36-af78-292cefbf5262">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-4fd42627-b312-4b36-af78-292cefbf5262" aria-controls="collapseOne">GET Users</a></h4>
                         </div>
         
-                        <div id="requestData-867079fd-8a5a-456a-831a-f9f3c4d54629" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-867079fd-8a5a-456a-831a-f9f3c4d54629">
+                        <div id="requestData-4fd42627-b312-4b36-af78-292cefbf5262" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-4fd42627-b312-4b36-af78-292cefbf5262">
                             <div class="panel-body">
                                         <div class="col-md-4">Description</div><div class="col-md-8" style="white-space: pre-wrap;">## GET Users
         
@@ -99,11 +99,16 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
         - **Odpowiedź:** Tablica obiektów użytkowników z polami takimi jak &#x60;id&#x60;, &#x60;name&#x60;, &#x60;email&#x60;, &#x60;address&#x60;, &#x60;company&#x60;.
             
         
+        ### Oczekiwana odpowiedź
+        
+        - **Status:** &#x60;200 OK&#x60;
+            
+        
         ### Walidacje (skrypt testowy)
         
         1. **Kod statusu** — oczekiwany &#x60;200 OK&#x60;
             
-        2. **Czas odpowiedzi** — poniżej 200ms
+        2. Czas odpowiedzi nie przekracza spodziewanego progu &gt;200ms
             
         3. **Struktura JSON** — sprawdzenie obecności wymaganych pól
             
@@ -116,7 +121,7 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
                                 <div class="col-md-12">&nbsp;</div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">232ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">331ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">5.51KB</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
@@ -139,17 +144,88 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
                         </div>
                     </div>
                 </div>
-                <div class="panel-group" id="collapse-request-c84cade0-a6d9-461e-99fa-2f3e6b53d994" role="tablist" aria-multiselectable="true">
+                <div class="panel-group" id="collapse-request-86b09328-b019-4784-b2fd-b031a29ae8ea" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-c84cade0-a6d9-461e-99fa-2f3e6b53d994">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-c84cade0-a6d9-461e-99fa-2f3e6b53d994" aria-controls="collapseOne">POST User</a></h4>
+                        <div class="panel-heading" role="tab" id="requestHead-86b09328-b019-4784-b2fd-b031a29ae8ea">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-86b09328-b019-4784-b2fd-b031a29ae8ea" aria-controls="collapseOne">GET Users Invalid Data</a></h4>
                         </div>
         
-                        <div id="requestData-c84cade0-a6d9-461e-99fa-2f3e6b53d994" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-c84cade0-a6d9-461e-99fa-2f3e6b53d994">
+                        <div id="requestData-86b09328-b019-4784-b2fd-b031a29ae8ea" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-86b09328-b019-4784-b2fd-b031a29ae8ea">
                             <div class="panel-body">
-                                        <div class="col-md-4">Description</div><div class="col-md-8" style="white-space: pre-wrap;">StartFragment
+                                        <div class="col-md-4">Description</div><div class="col-md-8" style="white-space: pre-wrap;">## GET Invalid User
         
-        ## POST User
+        Zapytanie testuje zachowanie API przy próbie pobrania użytkownika o nieistniejącym ID (np. [https://jsonplaceholder.typicode.com/users/12](https://jsonplaceholder.typicode.com/users)).
+        
+        ### Cel
+        
+        - Sprawdzenie odpowiedzi API na niepoprawne dane wejściowe.
+            
+        - Walidacja obsługi błędów (np. pusty obiekt, brak danych, kod statusu).
+            
+        
+        ### Użycie
+        
+        - **Endpoint:** &#x60;GET&#x60; [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)&#x60;/12&#x60;
+            
+        - **Autoryzacja:** Brak
+            
+        - **Oczekiwana odpowiedź:**
+            
+            - Status: &#x60;404 Not Found&#x60;z pustym obiektem
+                
+            - Body: pusty obiekt &#x60;{}&#x60; lub brak danych
+                
+        
+        ### Walidacje (skrypt testowy)
+        
+        - Kod statusu &#x60;404&#x60;
+            
+        - Czas odpowiedzi nie przekracza spodziewanego progu &gt;200ms
+            
+        - Sprawdzenie, czy odpowiedź nie zawiera danych użytkownika
+            
+        
+        **Test negatywny — API nie powinno zwracać 200 dla nieistniejącego ID użytkownika**</div>
+                                        <div class="col-md-12">&nbsp;</div>
+        
+                                    <div class="col-md-4">Method</div><div class="col-md-8">GET</div>
+                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://jsonplaceholder.typicode.com/users/12" target="_blank">https://jsonplaceholder.typicode.com/users/12</a></div>
+        
+                                <div class="col-md-12">&nbsp;</div>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">55ms</div><br/>
+                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">2B</div><br/>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">2</div>
+                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">404</div><br/>
+        
+                                    <div class="col-md-12">&nbsp;</div>
+                                    <div class="col-md-4">Tests</div>
+        
+                                    <div class="col-md-8">
+                                        <table class="table table-responsive table-condensed">
+                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
+                                            <tbody><tr><td>Status code is 404</td><td>1</td><td>0</td></tr><tr><td>Response time is less than 200ms</td><td>1</td><td>0</td></tr></tbody>
+                                        </table>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group" id="collapse-request-d80cdc45-b689-4b1e-9e20-dfa235d3a0cb" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="requestHead-d80cdc45-b689-4b1e-9e20-dfa235d3a0cb">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-d80cdc45-b689-4b1e-9e20-dfa235d3a0cb" aria-controls="collapseOne">POST User</a></h4>
+                        </div>
+        
+                        <div id="requestData-d80cdc45-b689-4b1e-9e20-dfa235d3a0cb" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-d80cdc45-b689-4b1e-9e20-dfa235d3a0cb">
+                            <div class="panel-body">
+                                        <div class="col-md-4">Description</div><div class="col-md-8" style="white-space: pre-wrap;">## POST User
         
         To zapytanie tworzy nowego użytkownika w systemie, wysyłając dane w formacie JSON na endpoint [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users). Służy do dodania profilu użytkownika z danymi osobistymi, adresem i informacjami o firmie.
         
@@ -178,11 +254,11 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
         
         ### Walidacje (skrypt testowy)
         
-        1. **Kod statusu** — oczekiwany &#x60;201&#x60;
+        - **Kod statusu** — oczekiwany &#x60;201&#x60;
             
-        2. **Czas odpowiedzi** — poniżej 500ms
+        - Czas odpowiedzi nie przekracza spodziewanego progu &gt;500ms
             
-        3. **Struktura JSON** — obecność wymaganych pól</div>
+        - **Struktura JSON** — obecność wymaganych pól</div>
                                         <div class="col-md-12">&nbsp;</div>
         
                                     <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
@@ -191,8 +267,8 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
                                 <div class="col-md-12">&nbsp;</div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">393ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">454B</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">180ms</div><br/>
+                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">460B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
                                 <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">3</div>
@@ -214,62 +290,76 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
                         </div>
                     </div>
                 </div>
-                <div class="panel-group" id="collapse-request-a6ad86ce-fbe5-4386-821b-745d1bd58fa6" role="tablist" aria-multiselectable="true">
+                <div class="panel-group" id="collapse-request-e9adb5f3-1b73-417a-b020-2fb903036da6" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-a6ad86ce-fbe5-4386-821b-745d1bd58fa6">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-a6ad86ce-fbe5-4386-821b-745d1bd58fa6" aria-controls="collapseOne">GET Users Invalid Data</a></h4>
+                        <div class="panel-heading" role="tab" id="requestHead-e9adb5f3-1b73-417a-b020-2fb903036da6">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-e9adb5f3-1b73-417a-b020-2fb903036da6" aria-controls="collapseOne">POST User Invalid Data</a></h4>
                         </div>
         
-                        <div id="requestData-a6ad86ce-fbe5-4386-821b-745d1bd58fa6" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-a6ad86ce-fbe5-4386-821b-745d1bd58fa6">
+                        <div id="requestData-e9adb5f3-1b73-417a-b020-2fb903036da6" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-e9adb5f3-1b73-417a-b020-2fb903036da6">
                             <div class="panel-body">
-                                        <div class="col-md-4">Description</div><div class="col-md-8" style="white-space: pre-wrap;">## GET Invalid User
+                                        <div class="col-md-4">Description</div><div class="col-md-8" style="white-space: pre-wrap;">## **POST User — duplikat danych**
         
-        Zapytanie testuje zachowanie API przy próbie pobrania użytkownika o nieistniejącym ID (np. [https://jsonplaceholder.typicode.com/users/12](https://jsonplaceholder.typicode.com/users)).
+        To zapytanie próbuje utworzyć nowego użytkownika w systemie, wysyłając dane w formacie JSON na endpoint [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users). Służy do dodania profilu użytkownika z danymi osobistymi, adresem i informacjami o firmie. W tym przypadku użyto danych, które już istnieją w bazie (email i imię).
         
-        ### Cel
+        ### **Cel**
         
-        - Sprawdzenie odpowiedzi API na niepoprawne dane wejściowe.
+        - Sprawdzenie, czy API odrzuca próbę dodania użytkownika z istniejącym adresem email i imieniem.
             
-        - Walidacja obsługi błędów (np. pusty obiekt, brak danych, kod statusu).
+        - **Body** zawiera pola takie jak: name, username, email, address, phone, website, company.
             
         
-        ### Użycie
+        ### **Użycie**
         
-        - **Endpoint:** &#x60;GET&#x60; [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)&#x60;/12&#x60;
+        - **Endpoint:**&#x60;POST&#x60;  
+            [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)
             
-        - **Autoryzacja:** Brak
+        - **Autoryzacja:** Brak (mock API)
             
-        - **Oczekiwana odpowiedź:**
+        - **Body:** application/json
             
-            - Status: &#x60;404 Not Found&#x60;z pustym obiektem
-                
-            - Body: pusty obiekt &#x60;{}&#x60; lub brak danych
-                
         
-        ### Testy
+        ### **Oczekiwana odpowiedź**
         
-        - Kod statusu &#x60;404&#x60;
+        - **Status:**409 Conflict lub inny błąd walidacji
             
-        - Czas odpowiedzi &lt; 200ms
+        - **Body:** Informacja o błędzie — użytkownik już istnieje
             
-        - Sprawdzenie, czy odpowiedź nie zawiera danych użytkownika</div>
+        
+        ### **Faktyczna odpowiedź (mock API)**
+        
+        - **Status:** &#x60;201 Created&#x60;
+            
+        - **Body:** Obiekt użytkownika z nadanym id — brak walidacji duplikatów
+            
+        
+        ### **Walidacje (skrypt testowy)**
+        
+        - Kod statusu — nie powinien być 201
+            
+        - Czas odpowiedzi nie przekracza spodziewanego progu &gt;500ms
+            
+        - Struktura JSON — obecność pól: id, email, name
+            
+        
+        **Test negatywny — API nie powinno tworzyć użytkownika z istniejącym emailem**</div>
                                         <div class="col-md-12">&nbsp;</div>
         
-                                    <div class="col-md-4">Method</div><div class="col-md-8">GET</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://jsonplaceholder.typicode.com/users/12" target="_blank">https://jsonplaceholder.typicode.com/users/12</a></div>
+                                    <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
+                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://jsonplaceholder.typicode.com/users" target="_blank">https://jsonplaceholder.typicode.com/users</a></div>
         
                                 <div class="col-md-12">&nbsp;</div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">53ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">2B</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">153ms</div><br/>
+                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">481B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">2</div>
+                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">3</div>
                                 <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">404</div><br/>
+                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">201</div><br/>
         
                                     <div class="col-md-12">&nbsp;</div>
                                     <div class="col-md-4">Tests</div>
@@ -277,20 +367,20 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
                                     <div class="col-md-8">
                                         <table class="table table-responsive table-condensed">
                                             <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Status code is 404</td><td>1</td><td>0</td></tr><tr><td>Response time is less than 200ms</td><td>1</td><td>0</td></tr></tbody>
+                                            <tbody><tr><td>Status code is 201</td><td>1</td><td>0</td></tr><tr><td>Response time is less than 500ms</td><td>1</td><td>0</td></tr><tr><td>Validate JSON schema</td><td>1</td><td>0</td></tr></tbody>
                                         </table>
                                     </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="panel-group" id="collapse-request-e858efcd-5329-410f-a79b-edfef8d58adf" role="tablist" aria-multiselectable="true">
+                <div class="panel-group" id="collapse-request-3468648d-8354-455b-b387-148f627c05db" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-e858efcd-5329-410f-a79b-edfef8d58adf">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-e858efcd-5329-410f-a79b-edfef8d58adf" aria-controls="collapseOne">PUT User Data</a></h4>
+                        <div class="panel-heading" role="tab" id="requestHead-3468648d-8354-455b-b387-148f627c05db">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-3468648d-8354-455b-b387-148f627c05db" aria-controls="collapseOne">PUT User Data</a></h4>
                         </div>
         
-                        <div id="requestData-e858efcd-5329-410f-a79b-edfef8d58adf" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-e858efcd-5329-410f-a79b-edfef8d58adf">
+                        <div id="requestData-3468648d-8354-455b-b387-148f627c05db" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-3468648d-8354-455b-b387-148f627c05db">
                             <div class="panel-body">
                                         <div class="col-md-4">Description</div><div class="col-md-8" style="white-space: pre-wrap;">## PUT User Data
         
@@ -310,18 +400,18 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
         - **Body:** pełny obiekt użytkownika z nowymi danymi
             
         
-        ### Odpowiedź
+        ### Oczekiwana odpowiedź
         
         - **Status:** &#x60;200 OK&#x60;
             
         - **Body:** zaktualizowany obiekt użytkownika
             
         
-        ### Testy
+        ### Walidacje (skrypt testowy)
         
         - Kod statusu &#x3D; 200
             
-        - Czas odpowiedzi przekracza spodziewany próg
+        - Czas odpowiedzi nie przekracza spodziewanego progu &gt;200ms
             
         - Sprawdzenie struktury JSON i typów danych</div>
                                         <div class="col-md-12">&nbsp;</div>
@@ -332,7 +422,7 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
                                 <div class="col-md-12">&nbsp;</div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">435ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">405ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">479B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
@@ -355,13 +445,13 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
                         </div>
                     </div>
                 </div>
-                <div class="panel-group" id="collapse-request-1f808a49-256f-43cd-bde3-783ff5a039c2" role="tablist" aria-multiselectable="true">
+                <div class="panel-group" id="collapse-request-cd25c259-8cfa-40f6-a7c0-2c61077bc63e" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-1f808a49-256f-43cd-bde3-783ff5a039c2">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-1f808a49-256f-43cd-bde3-783ff5a039c2" aria-controls="collapseOne">PATCH User Data</a></h4>
+                        <div class="panel-heading" role="tab" id="requestHead-cd25c259-8cfa-40f6-a7c0-2c61077bc63e">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-cd25c259-8cfa-40f6-a7c0-2c61077bc63e" aria-controls="collapseOne">PATCH User Data</a></h4>
                         </div>
         
-                        <div id="requestData-1f808a49-256f-43cd-bde3-783ff5a039c2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-1f808a49-256f-43cd-bde3-783ff5a039c2">
+                        <div id="requestData-cd25c259-8cfa-40f6-a7c0-2c61077bc63e" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-cd25c259-8cfa-40f6-a7c0-2c61077bc63e">
                             <div class="panel-body">
                                         <div class="col-md-4">Description</div><div class="col-md-8" style="white-space: pre-wrap;">## PATCH User Data
         
@@ -369,7 +459,8 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
         
         ### Cel
         
-        Zmiana wybranych danych użytkownika (np. imię, username, kod pocztowy), bez nadpisywania całego obiektu.
+        - Zmiana wybranych danych użytkownika (np. imię, username, kod pocztowy), bez nadpisywania całego obiektu.
+            
         
         ### Użycie
         
@@ -380,18 +471,18 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
         - **Body:** tylko pola do aktualizacji
             
         
-        ### Odpowiedź
+        ### Oczekiwana odpowiedź
         
         - **Status:** &#x60;200 OK&#x60;
             
         - **Body:** obiekt użytkownika z wprowadzonymi zmianami
             
         
-        ### Testy
+        ### Walidacje (skrypt testowy)
         
         - Kod statusu &#x3D; 200
             
-        - Czas odpowiedzi przekracza spodziewany próg &gt;300ms</div>
+        - Czas odpowiedzi nie przekracza spodziewanego progu &gt;300ms</div>
                                         <div class="col-md-12">&nbsp;</div>
         
                                     <div class="col-md-4">Method</div><div class="col-md-8">PATCH</div>
@@ -400,8 +491,8 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
                                 <div class="col-md-12">&nbsp;</div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">169ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">344B</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">165ms</div><br/>
+                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">341B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
                                 <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">2</div>
@@ -423,13 +514,13 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
                         </div>
                     </div>
                 </div>
-                <div class="panel-group" id="collapse-request-da0c801a-1ec6-4392-b4df-c99542dfa5b9" role="tablist" aria-multiselectable="true">
+                <div class="panel-group" id="collapse-request-28b7fda0-3848-42ab-aeec-226c55bbf911" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-da0c801a-1ec6-4392-b4df-c99542dfa5b9">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-da0c801a-1ec6-4392-b4df-c99542dfa5b9" aria-controls="collapseOne">DELETE User</a></h4>
+                        <div class="panel-heading" role="tab" id="requestHead-28b7fda0-3848-42ab-aeec-226c55bbf911">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-28b7fda0-3848-42ab-aeec-226c55bbf911" aria-controls="collapseOne">DELETE User</a></h4>
                         </div>
         
-                        <div id="requestData-da0c801a-1ec6-4392-b4df-c99542dfa5b9" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-da0c801a-1ec6-4392-b4df-c99542dfa5b9">
+                        <div id="requestData-28b7fda0-3848-42ab-aeec-226c55bbf911" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-28b7fda0-3848-42ab-aeec-226c55bbf911">
                             <div class="panel-body">
                                         <div class="col-md-4">Description</div><div class="col-md-8" style="white-space: pre-wrap;">## DELETE User
         
@@ -449,18 +540,18 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
         - **Typ:** brak body — ID użytkownika w ścieżce
             
         
-        ### Odpowiedź
+        ### Oczekiwana odpowiedź
         
         - **Status:** &#x60;204 No Content&#x60;
             
         - **Body:** zazwyczaj puste &#x60;{}&#x60; lub brak treści
             
         
-        ### Testy
+        ### Walidacje (skrypt testowy)
         
         - Kod statusu &#x3D; 200 (spodziewany 204)
             
-        - Czas odpowiedzi przekracza spodziewany próg &gt;200ms</div>
+        - Czas odpowiedzi nie przekracza spodziewanego progu &gt;200ms</div>
                                         <div class="col-md-12">&nbsp;</div>
         
                                     <div class="col-md-4">Method</div><div class="col-md-8">DELETE</div>
@@ -469,7 +560,7 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
                                 <div class="col-md-12">&nbsp;</div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">147ms</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">150ms</div><br/>
                                 <div class="col-md-4">Mean size per request</div><div class="col-md-8">2B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
@@ -492,6 +583,81 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
                         </div>
                     </div>
                 </div>
+                <div class="panel-group" id="collapse-request-d2bb71f9-b864-43c7-9094-a74589349b87" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="requestHead-d2bb71f9-b864-43c7-9094-a74589349b87">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-d2bb71f9-b864-43c7-9094-a74589349b87" aria-controls="collapseOne">DELETE User Invalid ID</a></h4>
+                        </div>
+        
+                        <div id="requestData-d2bb71f9-b864-43c7-9094-a74589349b87" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-d2bb71f9-b864-43c7-9094-a74589349b87">
+                            <div class="panel-body">
+                                        <div class="col-md-4">Description</div><div class="col-md-8" style="white-space: pre-wrap;">## DELETE User Invalid ID
+        
+        Usuwa użytkownika o nieprawidłowym &#x60;id&#x60; z systemu.
+        
+        ### Cel
+        
+        - Testowanie zachowania systemu przy próbie usunięcia użytkownika o nieistniejącym lub nieprawidłowym ID
+            
+        
+        ### Użycie
+        
+        - **Endpoint:** &#x60;DELETE&#x60; [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)&#x60;/abc&#x60;
+            
+        - **Typ:** brak body — ID użytkownika w ścieżce (nieprawidłowe ID)
+            
+        
+        ### Oczekiwana odpowiedź
+        
+        - **Status:** &#x60;404 Not Found&#x60; lub inny odpowiedni kod błędu wskazujący, że użytkownik nie istnieje
+            
+        - **Body:** komunikat błędu lub pusta odpowiedź
+            
+        
+        ### **Faktyczna odpowiedź (mock API)**
+        
+        - Status: &#x60;200 OK&#x60;
+            
+        
+        ### Walidacje (skrypt testowy)
+        
+        - Kod statusu &#x3D; 200 (Spodziewany 404)
+            
+        - Czas odpowiedzi nie przekracza spodziewanego progu &gt;200ms
+            
+        
+        **Test negatywny — API nie powinno usuwać użytkownika o nieprawidłowym ID**</div>
+                                        <div class="col-md-12">&nbsp;</div>
+        
+                                    <div class="col-md-4">Method</div><div class="col-md-8">DELETE</div>
+                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="https://jsonplaceholder.typicode.com/users/abc" target="_blank">https://jsonplaceholder.typicode.com/users/abc</a></div>
+        
+                                <div class="col-md-12">&nbsp;</div>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">152ms</div><br/>
+                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">2B</div><br/>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">1</div>
+                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">1</div><br/>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">200</div><br/>
+        
+                                    <div class="col-md-12">&nbsp;</div>
+                                    <div class="col-md-4">Tests</div>
+        
+                                    <div class="col-md-8">
+                                        <table class="table table-responsive table-condensed">
+                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
+                                            <tbody><tr><td>Status code is 404</td><td>0</td><td>1</td></tr><tr><td>Response time is less than 200ms</td><td>1</td><td>0</td></tr></tbody>
+                                        </table>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
         <br/><h4>Failures</h4>
 
@@ -508,11 +674,11 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
                     <div id="failureData-0" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="failureHead-0">
                         <div class="panel-body">
                             <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Description</div><div class="col-md-8">expected 232 to be below 200</div><br/>
+                                <div class="col-md-4">Description</div><div class="col-md-8">expected 331 to be below 200</div><br/>
 
                             <div class="col-md-4">Location</div><div class="col-md-8">assertion:1 in test-script</div><br/>
                             <div class="col-md-4">Request</div><div class="col-md-8">
-                                <a href="#collapse-request-867079fd-8a5a-456a-831a-f9f3c4d54629">GET Users</a>
+                                <a href="#collapse-request-4fd42627-b312-4b36-af78-292cefbf5262">GET Users</a>
                             </div>
                         </div>
                     </div>
@@ -531,11 +697,11 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
                     <div id="failureData-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="failureHead-1">
                         <div class="panel-body">
                             <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Description</div><div class="col-md-8">expected 435 to be below 200</div><br/>
+                                <div class="col-md-4">Description</div><div class="col-md-8">expected 405 to be below 200</div><br/>
 
                             <div class="col-md-4">Location</div><div class="col-md-8">assertion:1 in test-script</div><br/>
                             <div class="col-md-4">Request</div><div class="col-md-8">
-                                <a href="#collapse-request-e858efcd-5329-410f-a79b-edfef8d58adf">PUT User Data</a>
+                                <a href="#collapse-request-3468648d-8354-455b-b387-148f627c05db">PUT User Data</a>
                             </div>
                         </div>
                     </div>
@@ -558,7 +724,30 @@ Każda metoda HTTP posiada **oddzielną dokumentację**&nbsp;</div>
 
                             <div class="col-md-4">Location</div><div class="col-md-8">assertion:0 in test-script</div><br/>
                             <div class="col-md-4">Request</div><div class="col-md-8">
-                                <a href="#collapse-request-da0c801a-1ec6-4392-b4df-c99542dfa5b9">DELETE User</a>
+                                <a href="#collapse-request-28b7fda0-3848-42ab-aeec-226c55bbf911">DELETE User</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-group" id="collapse-failure-3" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="failureHead-3">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#failureData-3" aria-controls="collapseOne">
+                                AssertionError: Status code is 404
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="failureData-3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="failureHead-3">
+                        <div class="panel-body">
+                            <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-4">Description</div><div class="col-md-8">expected response to have status code 404 but got 200</div><br/>
+
+                            <div class="col-md-4">Location</div><div class="col-md-8">assertion:0 in test-script</div><br/>
+                            <div class="col-md-4">Request</div><div class="col-md-8">
+                                <a href="#collapse-request-d2bb71f9-b864-43c7-9094-a74589349b87">DELETE User Invalid ID</a>
                             </div>
                         </div>
                     </div>
