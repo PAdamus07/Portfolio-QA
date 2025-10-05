@@ -5,7 +5,7 @@ Ten plik zawiera zestaw zapytań SQL przygotowanych do mojego portfolio testersk
 
 Celem było pokazanie umiejętności analizy danych, wykrywania błędów, testowania relacji między tabelami oraz identyfikowania przypadków brzegowych i negatywnych. Każde zapytanie zostało opisane komentarzem testerskim, który wyjaśnia jego cel.
 
-##  Zakres testów
+## Przeprowadzone testy
 
 - Testy pozytywne
 - Testy negatywne
