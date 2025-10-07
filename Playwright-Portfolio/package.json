@@ -1,0 +1,18 @@
+{
+  "name": "playwright_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:positive": "npx playwright test --grep \"@positive\"",
+    "test:negative": "npx playwright test --grep \"@negative\"",
+    "test:edge": "npx playwright test --grep \"@edge\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.6.2"
+  }
+}
