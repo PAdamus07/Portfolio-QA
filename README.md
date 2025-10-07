@@ -15,7 +15,7 @@ Ale to nie wszystko! Równocześnie uczę się też testów API, SQL i automatyz
 - <b>Testy baz danych</b>
   - [Projekt testu baz danych z SQL](https://github.com/PAdamus07/Portfolio-QA/tree/main/SQL-Portfolio)
 - <b>Testy automatyzacyjne</b>
-  - [Projekt testu ]()
+  - [Projekt testu playwright-księgarnia](https://github.com/PAdamus07/Portfolio-QA/tree/main/Playwright-Portfolio)
 
 <h2>🧰 Technologie i narzędzia</h2>
 
