@@ -1,6 +1,6 @@
 # 🧪 Automatyzacja testów strony księgarni — Playwright Portfolio
 
-Ten projekt zawiera zestaw testów automatycznych UI dla przykładowej aplikacji e-commerce — [księgarni internetowej](https://practice.expandtesting.com/bookstore). Testy zostały napisane w Playwright z JavaScript i obejmują scenariusze pozytywne, negatywne oraz przypadki brzegowe. Projekt stanowi część mojego portfolio QA.
+Ten projekt zawiera zestaw testów automatycznych UI dla przykładowej mock aplikacji e-commerce — [księgarni internetowej](https://practice.expandtesting.com/bookstore). Testy zostały napisane w Playwright z JavaScript i obejmują scenariusze pozytywne, negatywne oraz przypadki brzegowe. Projekt stanowi część mojego portfolio QA.
 
 ## 📚 Zakres testów
 
@@ -8,23 +8,24 @@ Ten projekt zawiera zestaw testów automatycznych UI dla przykładowej aplikacji
 - Wyszukiwanie książki po poprawnym tytule
 - Sortowanie książek według ceny i daty
 - Dodanie książki do koszyka
+- Weryfikacja danych książki
 - Poprawne wypełnienie formularza rejestracji
 
 ### ❌ Testy negatywne (`@negative`)
-- Wyszukiwanie nieistniejącego tytułu
+- Wyszukiwanie nieistniejącego tytułu książki
 - Wysłanie formularza rejestracji bez adresu e-mail
 
 ### 🧪 Przypadki brzegowe (`@edge`)
 - Wyszukiwanie z użyciem znaków specjalnych
-- Dodanie 250 sztuk produktu do koszyka (test limitu ilości)
-- Wysłanie formularza z błędnym formatem adresu e-mail
+- Dodanie 250 sztuk produktu do koszyka (test reguły biznesowej)
+- Wysłanie formularza z niepoprawnym formatem adresu e-mail
 
 ## 🏷️ Tagi testowe
 
-Każdy test został oznaczony odpowiednim tagiem:
+Każde testy zostały oznaczone odpowiednim tagiem:
 - `@positive` — scenariusze poprawne
 - `@negative` — scenariusze błędne lub niepoprawne dane
-- `@edge` — nietypowe przypadki, testy graniczne
+- `@edge` — testy graniczne
 
 Dzięki temu można łatwo filtrować testy:
 
@@ -34,7 +35,7 @@ Dzięki temu można łatwo filtrować testy:
 
 ## 🛠️ Wymagania techniczne
 
-Aby uruchomić projekt, potrzebne są:
+Aby uruchomić mój projekt, potrzebne są:
 
 - Node.js
 - Playwright (`@playwright/test`)
