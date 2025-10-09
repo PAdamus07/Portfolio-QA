@@ -29,7 +29,8 @@ Testowane obszary:
 - Przeglądarka: Firefox 140.0.4  
 - System operacyjny: Windows 10  
 - Narzędzia:  
-  - ShareX (zrzuty ekranu błędów)  
+  - ShareX (zrzuty ekranu błędów)
+  - Jira 
   - Microsoft Word (.doc)  
   - Markdown (README, test plan)
 
