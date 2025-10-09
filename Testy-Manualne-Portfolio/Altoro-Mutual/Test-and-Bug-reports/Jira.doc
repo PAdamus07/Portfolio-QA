@@ -1,0 +1,4475 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://padamus.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [QMTP-1]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a>
+            <span class="subText">
+               Utworzono: 08/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                    &nbsp;Termin: 12/paź/25
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">W toku</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Epik
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10004-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Brak
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10004-value" class="value" bgcolor="#ffffff" width="80%">      0|hzzzzz:
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10004-value" class="value" bgcolor="#ffffff" width="80%">          <span title="08/paź/25"><time datetime="2025-10-08">08/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Ten epik obejmuje ręczne testowanie funkcjonalności strony demo Altoro Mutual (<a href="https://demo.testfire.net" title="smart-link" class="external-link" rel="nofollow noreferrer">https://demo.testfire.net</a> ). Zawiera przypadki testowe dla logowania, przeglądania konta, przelewów, formularza kontaktowego oraz scenariuszy negatywnych i brzegowych. Testy zostały udokumentowane w Jira, a ich wyniki przedstawione za pomocą <b>zrzutów ekranu i pliku .doc</b> z przypadkami testowymi.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://padamus.atlassian.net/browse/QMTP-1">QMTP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://padamus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QMTP-2]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-2">Testowanie funkcjonalności logowania</a>
+            <span class="subText">
+               Utworzono: 08/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                                    &nbsp;Rozwiązane: 09/paź/25
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Gotowe</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Gotowe
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10005-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            altoro, login, positive                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-3">
+                     <strike>QMTP-3</strike>                 </a>
+            </td>
+            <td>
+                Testowanie funkcjonalności logowania ...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-4">
+                     <strike>QMTP-4</strike>                 </a>
+            </td>
+            <td>
+                Testowanie funkcjonalności logowania ...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10005-value" class="value" bgcolor="#ffffff" width="80%">      0|hzzzzz:9
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10005-value" class="value" bgcolor="#ffffff" width="80%">          <span title="08/paź/25"><time datetime="2025-10-08">08/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Test Title:</b> Sprawdzenie logowania z poprawnymi danymi <b>Environment:</b> Firefox 140.0.4 (Windows 10) <b>Test Data:</b></p>
+
+<ul>
+	<li><b>Login:</b> admin</li>
+	<li><b>Hasło:</b> admin <em>(Dane testowe z publicznej strony demonstracyjnej Altoro Mutual)</em></li>
+</ul>
+
+
+<p><b>Preconditions / Warunki wstępne:</b> Użytkownik posiada poprawne dane logowania</p>
+
+<p><b>Test Steps / Kroki testowe:</b></p>
+
+<ol>
+	<li>Przejdź na stronę logowania</li>
+	<li>Wprowadź login admin i hasło admin</li>
+	<li>Kliknij przycisk „Login”</li>
+</ol>
+
+
+<p><b>Expected Result / Oczekiwany rezultat:</b> Użytkownik zostaje przekierowany na stronę główną konta</p>
+
+<p><b>Actual Result / Rzeczywisty rezultat:</b> Użytkownik został poprawnie zalogowany i widzi stronę konta</p>
+
+<p><b>Status:</b> Pass</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://padamus.atlassian.net/browse/QMTP-1">QMTP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://padamus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QMTP-3]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-3">Testowanie funkcjonalności logowania z niepoprawnymi danymi</a>
+            <span class="subText">
+               Utworzono: 08/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                                    &nbsp;Rozwiązane: 09/paź/25
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Gotowe</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Gotowe
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10006-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            altoro, login, negative                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-4">
+                     <strike>QMTP-4</strike>                 </a>
+            </td>
+            <td>
+                Testowanie funkcjonalności logowania ...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-2">
+                     <strike>QMTP-2</strike>                 </a>
+            </td>
+            <td>
+                Testowanie funkcjonalności logowania
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10006-value" class="value" bgcolor="#ffffff" width="80%">      0|hzzzzz:b
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10006-value" class="value" bgcolor="#ffffff" width="80%">          <span title="08/paź/25"><time datetime="2025-10-08">08/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Test Title:</b> Próba logowania z niepoprawnymi danymi </p>
+
+<p><b>Environment:</b> Firefox 140.0.4 (Windows 10) </p>
+
+<p><b>Test Data:</b></p>
+
+<ul>
+	<li><b>Login:</b> user</li>
+	<li><b>Hasło:</b> password <em>(Dane testowe wygenerowane do scenariusza negatywnego — nieistniejący użytkownik)</em></li>
+</ul>
+
+
+<p><b>Preconditions / Warunki wstępne:</b> Użytkownik znajduje się na stronie logowania</p>
+
+<p><b>Test Steps / Kroki testowe:</b></p>
+
+<ol>
+	<li>Przejdź na stronę logowania</li>
+	<li>Wprowadź login user i hasło password</li>
+	<li>Kliknij przycisk „Login”</li>
+</ol>
+
+
+<p><b>Expected Result / Oczekiwany rezultat:</b> System wyświetla komunikat o błędzie: „<b>Login Failed: We're sorry, but this username or password was not found in our system. Please try again.</b>”</p>
+
+<p><b>Actual Result / Rzeczywisty rezultat:</b> System wyświetla komunikat o błędzie </p>
+
+<p><b>Status:</b> Pass </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://padamus.atlassian.net/browse/QMTP-1">QMTP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://padamus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QMTP-4]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-4">Testowanie funkcjonalności logowania z pustymi polami danych</a>
+            <span class="subText">
+               Utworzono: 08/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                                    &nbsp;Rozwiązane: 09/paź/25
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Gotowe</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Gotowe
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10007-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            altoro, login, negative                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-2">
+                     <strike>QMTP-2</strike>                 </a>
+            </td>
+            <td>
+                Testowanie funkcjonalności logowania
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-3">
+                     <strike>QMTP-3</strike>                 </a>
+            </td>
+            <td>
+                Testowanie funkcjonalności logowania ...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10007-value" class="value" bgcolor="#ffffff" width="80%">      0|hzzzzz:a
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10007-value" class="value" bgcolor="#ffffff" width="80%">          <span title="08/paź/25"><time datetime="2025-10-08">08/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Test Title:</b> Próba logowania bez wypełnienia pól</p>
+
+<p> <b>Environment:</b> Firefox 140.0.4 (Windows 10)</p>
+
+<p> <b>Test Data:</b></p>
+
+<ul>
+	<li><b>Login:</b> <em>(pozostawiono puste)</em></li>
+	<li><b>Hasło:</b> <em>(pozostawiono puste)</em> <em>(Dane testowe dla scenariusza negatywnego — brak danych wejściowych)</em></li>
+</ul>
+
+
+<p><b>Preconditions / Warunki wstępne:</b> Użytkownik znajduje się na stronie logowania</p>
+
+<p><b>Test Steps / Kroki testowe:</b></p>
+
+<ol>
+	<li>Przejdź na stronę logowania</li>
+	<li>Nie wpisuj żadnych danych w polach username i password</li>
+	<li>Kliknij przycisk „Login”</li>
+</ol>
+
+
+<p><b>Expected Result / Oczekiwany rezultat:</b> System wyświetla popup o błędzie: „You must enter a valid username”</p>
+
+<p><b>Actual Result / Rzeczywisty rezultat:</b> Strona wyświetla alert poprawnie</p>
+
+<p><b>Status:</b> Pass</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://padamus.atlassian.net/browse/QMTP-1">QMTP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://padamus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QMTP-5]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-5">Test odnośnika „Online Banking ” na stronie głównej</a>
+            <span class="subText">
+               Utworzono: 08/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">W toku</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10008-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            altoro, bug                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://padamus.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    QMTP-5.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10008-value" class="value" bgcolor="#ffffff" width="80%">      0|i0000f:
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10008-value" class="value" bgcolor="#ffffff" width="80%">          <span title="08/paź/25"><time datetime="2025-10-08">08/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Test Title:</b> Sprawdzenie działania odnośnika „Online Banking with FREE Online Bill Pay” </p>
+
+<p><b>Environment:</b> Firefox 140.0.4 (Windows 10) </p>
+
+<p><b>Test Data:</b></p>
+
+<ul>
+	<li>Brak danych wejściowych — test dotyczy nawigacji</li>
+</ul>
+
+
+<p><b>Preconditions / Warunki wstępne:</b> Użytkownik znajduje się na stronie głównej Altoro Mutual: <a href="https://demo.testfire.net/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://demo.testfire.net/</a> </p>
+
+<p><b>Test Steps / Kroki testowe:</b></p>
+
+<ol>
+	<li>Otwórz stronę główną Altoro Mutual</li>
+	<li>Kliknij odnośnik „Online Banking with FREE Online Bill Pay ” znajdujący się w menu po lewej stronie</li>
+</ol>
+
+
+<p><b>Expected Result / Oczekiwany rezultat:</b> Użytkownik zostaje przekierowany na stronę “personal savings”:<a href="https://demo.testfire.net/index.jsp?content=personal_savings.htm" class="external-link" rel="nofollow noreferrer">https://demo.testfire.net/index.jsp?content=personal_savings.htm</a></p>
+
+<p><b>Actual Result / Rzeczywisty rezultat:</b> Użytkownik został przekierowany, ale żądany zasób nie jest dostępny</p>
+
+<p><b>Severity:</b> Medium </p>
+
+<p><b>Priority:</b> High</p>
+
+<p><b>Status:</b> Fail</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://padamus.atlassian.net/browse/QMTP-1">QMTP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://padamus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QMTP-6]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-6">Test odnośnika i pod-linków w &quot;INSIDE ALTORO MUTUAL&quot;</a>
+            <span class="subText">
+               Utworzono: 08/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">W toku</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10009-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            altoro, bug                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://padamus.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    QMTP-6.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10009-value" class="value" bgcolor="#ffffff" width="80%">      0|i0000n:
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10009-value" class="value" bgcolor="#ffffff" width="80%">          <span title="08/paź/25"><time datetime="2025-10-08">08/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Test Title:</b> Sprawdzenie działania odnośników na stronie „INSIDE ALTORO MUTUAL” </p>
+
+<p><b>Environment:</b> Firefox 140.0.4 (Windows 10) </p>
+
+<p><b>Test Data:</b> Brak danych wejściowych — test dotyczy nawigacji</p>
+
+<p><b>Preconditions / Warunki wstępne:</b> Użytkownik znajduje się na stronie głównej Altoro Mutual:<a href="https://demo.testfire.net/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://demo.testfire.net/</a> </p>
+
+<h3><a name="TestSteps%2FKrokitestowe%3A"></a>Test Steps / Kroki testowe:</h3>
+
+<ol>
+	<li>Otwórz stronę główną Altoro Mutual</li>
+	<li>Kliknij odnośnik „INSIDE ALTORO MUTUAL” w menu po lewej stronie</li>
+	<li>Na nowej stronie kliknij kolejno wszystkie dostępne odnośniki:
+	<ul>
+		<li>„community programs”</li>
+		<li>„2006 community annual report (PDF, 63KB)”</li>
+		<li>„Altoro Private Bank”</li>
+		<li>„Altoro Wealth &amp; Tax”</li>
+	</ul>
+	</li>
+</ol>
+
+
+<h3><a name="ExpectedResult%2FOczekiwanyrezultat%3A"></a>Expected Result / Oczekiwany rezultat:</h3>
+
+<p>Każdy odnośnik prowadzi do odpowiedniej podstrony i zasób jest dostępny</p>
+
+<h3><a name="ActualResult%2FRzeczywistyrezultat%3A"></a>Actual Result / Rzeczywisty rezultat:</h3>
+
+<ul>
+	<li>„community programs” → działa poprawnie</li>
+	<li>„2006 community annual report (PDF, 63KB)” → działa poprawnie i pozwala pobrać plik PDF</li>
+	<li>„Altoro Private Bank” → Brak przekierowania i brak komunikatu — odnośnik nieaktywny</li>
+	<li>„Altoro Wealth &amp; Tax” → Brak przekierowania i brak komunikatu — odnośnik nieaktywny</li>
+</ul>
+
+
+<p><b>Severity:</b> Medium</p>
+
+<p><b>Priority:</b> Medium </p>
+
+<p><b>Status:</b> Fail</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://padamus.atlassian.net/browse/QMTP-1">QMTP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://padamus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QMTP-7]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-7">Weryfikacja spójności danych dla konta „800000 Corporate”</a>
+            <span class="subText">
+               Utworzono: 08/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">W toku</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10010-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            altoro, bug, login                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://padamus.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    QMTP-7.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10010-value" class="value" bgcolor="#ffffff" width="80%">      0|i0000v:
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10010-value" class="value" bgcolor="#ffffff" width="80%">          <span title="08/paź/25"><time datetime="2025-10-08">08/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Test Title:</b> Sprawdzenie wartości w kolumnach po wybraniu konta „800000 Corporate” </p>
+
+<p><b>Environment:</b> Firefox 140.0.4 (Windows 10) </p>
+
+<p><b>Test Data:</b></p>
+
+<ul>
+	<li><b>Login:</b> admin</li>
+	<li><b>Hasło:</b> admin <em>(Dane testowe z publicznej strony demonstracyjnej Altoro Mutual)</em></li>
+</ul>
+
+
+<p><b>Preconditions / Warunki wstępne:</b> Użytkownik posiada poprawne dane logowania i jest na stronie Altoro Mutual: <a href="https://demo.testfire.net/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://demo.testfire.net/</a> </p>
+
+<h3><a name="TestSteps%2FKrokitestowe%3A"></a>Test Steps / Kroki testowe:</h3>
+
+<ol>
+	<li>Zaloguj się na stronie Altoro Mutual klikając “Sign In” w prawym górnym rogu strony</li>
+	<li>Po zalogowaniu z rozwijanego menu wybierz konto „800000 Corporate”</li>
+	<li>Kliknij „Go”</li>
+	<li>Przejdź do zakładki „Account History”</li>
+	<li>Sprawdź wartości w kolumnie „Debits” oraz ogólne formatowanie danych w reszcie kolumn</li>
+</ol>
+
+
+<h3><a name="ExpectedResult%2FOczekiwanyrezultat%3A"></a>Expected Result / Oczekiwany rezultat:</h3>
+
+<p>W kolumnie „Debits” wyświetlane są poprawne wartości liczbowe w formacie walutowym (np. $1,234.56)</p>
+
+<h3><a name="ActualResult%2FRzeczywistyrezultat%3A"></a>Actual Result / Rzeczywisty rezultat:</h3>
+
+<ul>
+	<li>W kolumnie „Debits” pojawiają się wartości w notacji naukowej: 2.35678E+36, 1E+15</li>
+	<li>W wielu wierszach brakuje znaków waluty (np. $)</li>
+	<li>Formatowanie danych jest niespójne — niektóre liczby są wyświetlane jako surowe wartości, inne jako tekst</li>
+	<li>Brak wyrównania kolumn i spójności wizualnej</li>
+</ul>
+
+
+<p><b>Wartości są nieczytelne dla użytkownika i niezgodne z oczekiwanym formatem walutowym</b></p>
+
+<p><b>Status:</b> Fail</p>
+
+<p><b>Severity:</b> High</p>
+
+<p><b>Priority:</b> High</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://padamus.atlassian.net/browse/QMTP-1">QMTP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://padamus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QMTP-8]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-8">Test odnośnika &quot;Contact us&quot; i linków</a>
+            <span class="subText">
+               Utworzono: 08/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">W toku</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10011-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            altoro, bug                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://padamus.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    QMTP-8.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10011-value" class="value" bgcolor="#ffffff" width="80%">      0|i0000c:
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10011-value" class="value" bgcolor="#ffffff" width="80%">          <span title="08/paź/25"><time datetime="2025-10-08">08/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Test Title:</b> Sprawdzenie działania odnośnika „Contact Us” oraz poprawności linków „Microsoft”, „Netscape” i formularza kontaktowego</p>
+
+<p> <b>Environment:</b> Firefox 140.0.4 (Windows 10) </p>
+
+<p><b>Test Data:</b> Brak danych wejściowych — test dotyczy nawigacji</p>
+
+<p><b>Preconditions / Warunki wstępne:</b> Użytkownik znajduje się na stronie głównej Altoro Mutual:<a href="https://demo.testfire.net/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://demo.testfire.net/</a> </p>
+
+<h3><a name="TestSteps%2FKrokitestowe%3A"></a>Test Steps / Kroki testowe:</h3>
+
+<ol>
+	<li>Otwórz stronę główną Altoro Mutual</li>
+	<li>Kliknij odnośnik „Contact Us” w menu po lewej stronie</li>
+	<li>Zweryfikuj, czy strona kontaktowa ładuje się poprawnie</li>
+	<li>Na stronie „Contact Us” kliknij kolejno odnośniki:
+	<ul>
+		<li>„Microsoft”</li>
+		<li>„Netscape”</li>
+		<li>“online form”</li>
+	</ul>
+	</li>
+</ol>
+
+
+<h3><a name="ExpectedResult%2FOczekiwanyrezultat%3A"></a>Expected Result / Oczekiwany rezultat:</h3>
+
+<ul>
+	<li>Strona „Contact Us” ładuje się poprawnie</li>
+	<li>Odnośnik „Microsoft” prowadzi do strony Microsoft</li>
+	<li>Odnośnik „Netscape” prowadzi do strony Netscape</li>
+	<li>Formularz kontaktowy jest widoczny i dostępny po kliknięciu odnośnika</li>
+</ul>
+
+
+<h3><a name="ActualResult%2FRzeczywistyrezultat%3A"></a>Actual Result / Rzeczywisty rezultat:</h3>
+
+<ul>
+	<li>Strona „Contact Us” została poprawnie załadowana</li>
+	<li>Odnośnik „Microsoft” działa poprawnie i przekierowuje na stronę Microsoft</li>
+	<li>Odnośnik „Netscape" przekierowuje użytkownika na stronę AOL zamiast na stronę Netscape.</li>
+	<li>Formularz kontaktowy jest widoczny i dostępny pod wskazanym adresem</li>
+</ul>
+
+
+<p><b>Status:</b> Fail</p>
+
+<p><b>Severity:</b> Low</p>
+
+<p><b>Priority:</b> Low </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://padamus.atlassian.net/browse/QMTP-1">QMTP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://padamus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QMTP-9]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-9">Weryfikacja funkcjonalności &quot;Feedback&quot; na stronie</a>
+            <span class="subText">
+               Utworzono: 08/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                                    &nbsp;Rozwiązane: 09/paź/25
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Gotowe</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Gotowe
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10012-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            altoro, positive                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-10">
+                     QMTP-10                 </a>
+            </td>
+            <td>
+                Weryfikacja funkcjonalności &quot;Feedback...
+            </td>
+            <td>
+                W toku
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10012-value" class="value" bgcolor="#ffffff" width="80%">      0|hzzzzz:4
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10012-value" class="value" bgcolor="#ffffff" width="80%">          <span title="08/paź/25"><time datetime="2025-10-08">08/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Test Title:</b> Przejście ze strony głównej na stronę „Feedback” i wypełnienie formularza </p>
+
+<p><b>Environment:</b> Firefox 140.0.4 (Windows 10) </p>
+
+<p><b>Test Data:</b></p>
+
+<ul>
+	<li><b>Name:</b> Jan Kowalski</li>
+	<li><b>Email:</b> <a href="mailto:jan.kowalski@example.com" class="external-link" rel="nofollow noreferrer">jan.kowalski@example.com</a></li>
+	<li><b>Subject:</b> Test działania formularza</li>
+	<li><b>Comments:</b> Formularz działa poprawnie</li>
+</ul>
+
+
+<p><b>Preconditions / Warunki wstępne:</b> Użytkownik znajduje się na stronie głównej Altoro Mutual:<a href="https://demo.testfire.net/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://demo.testfire.net/</a> </p>
+
+<h3><a name="TestSteps%2FKrokitestowe%3A"></a>Test Steps / Kroki testowe:</h3>
+
+<ol>
+	<li>Otwórz stronę główną Altoro Mutual</li>
+	<li>Kliknij odnośnik „Feedback” w menu po lewej stronie</li>
+	<li>Zweryfikuj, czy strona formularza ładuje się poprawnie</li>
+</ol>
+
+
+<ol>
+	<li>Wypełnij pola formularza:
+	<ul>
+		<li>Name: Jan Kowalski</li>
+		<li>Email: <a href="mailto:jan.kowalski@example.com" class="external-link" rel="nofollow noreferrer">jan.kowalski@example.com</a></li>
+		<li>Subject: Test działania formularza</li>
+		<li>Comments: Formularz działa poprawnie</li>
+	</ul>
+	</li>
+	<li>Kliknij przycisk „Submit”</li>
+</ol>
+
+
+<h3><a name="ExpectedResult%2FOczekiwanyrezultat%3A"></a>Expected Result / Oczekiwany rezultat:</h3>
+
+<ul>
+	<li>Strona „Feedback” ładuje się poprawnie</li>
+	<li>Formularz przyjmuje dane i po kliknięciu „Submit” wyświetla potwierdzenie</li>
+	<li>Brak błędów walidacji lub komunikatów o niepoprawnych danych</li>
+</ul>
+
+
+<h3><a name="ActualResult%2FRzeczywistyrezultat%3A"></a>Actual Result / Rzeczywisty rezultat:</h3>
+
+<ul>
+	<li>Strona „Feedback” została poprawnie załadowana</li>
+	<li>Formularz został wypełniony i przesłany bez błędów</li>
+	<li>Dane zostały przyjęte, wyświetlono potwierdzenie przesłania</li>
+</ul>
+
+
+<p><b>Status:</b> Pass</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://padamus.atlassian.net/browse/QMTP-1">QMTP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://padamus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QMTP-10]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-10">Weryfikacja funkcjonalności &quot;Feedback&quot; na stronie bez wprowadzenia danych do pól</a>
+            <span class="subText">
+               Utworzono: 08/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">W toku</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10013-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            altoro, bug, negative                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://padamus.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    QMTP-10.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-9">
+                     <strike>QMTP-9</strike>                 </a>
+            </td>
+            <td>
+                Weryfikacja funkcjonalności &quot;Feedback...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10013-value" class="value" bgcolor="#ffffff" width="80%">      0|i0000a:
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10013-value" class="value" bgcolor="#ffffff" width="80%">          <span title="08/paź/25"><time datetime="2025-10-08">08/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Test Title:</b> Sprawdzenie działania formularza „Feedback” przy próbie przesłania pustych danych <b>Environment:</b> Firefox 140.0.4 (Windows 10)</p>
+
+<p> <b>Test Data:</b></p>
+
+<ul>
+	<li><b>Name:</b> <em>(puste)</em></li>
+	<li><b>Email:</b> <em>(puste)</em></li>
+	<li><b>Subject:</b> <em>(puste)</em></li>
+	<li><b>Comments:</b> <em>(puste)</em></li>
+</ul>
+
+
+<p><b>Preconditions / Warunki wstępne:</b> Użytkownik znajduje się na stronie głównej Altoro Mutual:<a href="https://demo.testfire.net/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://demo.testfire.net/</a> </p>
+
+<h3><a name="TestSteps%2FKrokitestowe%3A"></a>Test Steps / Kroki testowe:</h3>
+
+<ol>
+	<li>Otwórz stronę główną Altoro Mutual</li>
+	<li>Kliknij odnośnik „Feedback” w prawym górnym rogu</li>
+	<li>Zweryfikuj, czy strona formularza ładuje się poprawnie</li>
+	<li>Pozostaw wszystkie pola formularza puste</li>
+	<li>Kliknij przycisk „Submit”</li>
+</ol>
+
+
+<h3><a name="ExpectedResult%2FOczekiwanyrezultat%3A"></a>Expected Result / Oczekiwany rezultat:</h3>
+
+<ul>
+	<li>System powinien wyświetlić komunikat błędu lub zablokować przesłanie formularza</li>
+	<li>Formularz nie powinien zostać zaakceptowany bez danych</li>
+</ul>
+
+
+<h3><a name="ActualResult%2FRzeczywistyrezultat%3A"></a>Actual Result / Rzeczywisty rezultat:</h3>
+
+<ul>
+	<li>Formularz został przesłany mimo braku danych</li>
+	<li>Brak komunikatu walidacyjnego — możliwy brak kontroli poprawności danych</li>
+</ul>
+
+
+<p><b>Status:</b> Fail</p>
+
+<p><b>Severity:</b> Medium </p>
+
+<p><b>Priority:</b> Medium </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://padamus.atlassian.net/browse/QMTP-1">QMTP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://padamus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QMTP-11]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-11">Weryfikacja działania ankiety „Win a Samsung Galaxy S10 smartphone”</a>
+            <span class="subText">
+               Utworzono: 08/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                                    &nbsp;Rozwiązane: 09/paź/25
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Gotowe</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Gotowe
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10014-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            altoro, positive                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-12">
+                     QMTP-12                 </a>
+            </td>
+            <td>
+                Weryfikacja działania ankiety „Win a ...
+            </td>
+            <td>
+                W toku
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-13">
+                     QMTP-13                 </a>
+            </td>
+            <td>
+                Weryfikacja walidacji pola e-mail w a...
+            </td>
+            <td>
+                W toku
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10014-value" class="value" bgcolor="#ffffff" width="80%">      0|hzzzzz:9i
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10014-value" class="value" bgcolor="#ffffff" width="80%">          <span title="08/paź/25"><time datetime="2025-10-08">08/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Test Title:</b> Wypełnienie ankiety „Win a Samsung Galaxy S10 smartphone” z poprawnymi danymi </p>
+
+<p><b>Environment:</b> Firefox 140.0.4 (Windows 10) </p>
+
+<p><b>Test Data:</b></p>
+
+<ul>
+	<li>Pytanie 1:Yes</li>
+	<li>Pytanie 2: 18-24</li>
+	<li>Pytanie 3: Yes</li>
+	<li>Pytanie 4:  Male</li>
+	<li>Pytanie 5:  Yes</li>
+	<li>Pytanie 6: jan.kowalski@example.com</li>
+</ul>
+
+
+<p><b>Preconditions / Warunki wstępne:</b> Użytkownik znajduje się na stronie głównej Altoro Mutual:<a href="https://demo.testfire.net/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://demo.testfire.net/</a> </p>
+
+<h3><a name="TestSteps%2FKrokitestowe%3A"></a>Test Steps / Kroki testowe:</h3>
+
+<ol>
+	<li>Otwórz stronę główną Altoro Mutual</li>
+	<li>Kliknij odnośnik „Win a Samsung Galaxy S10 smartphone” (ankieta) po prawej stronie</li>
+	<li>Wypełnij formularz ankiety zgodnie z danymi testowymi</li>
+	<li>Kliknij przycisk „Submit”</li>
+</ol>
+
+
+<h3><a name="ExpectedResult%2FOczekiwanyrezultat%3A"></a>Expected Result / Oczekiwany rezultat:</h3>
+
+<ul>
+	<li>Formularz ankiety zostaje poprawnie przesłany</li>
+	<li>Użytkownik otrzymuje potwierdzenie udziału w ankiecie</li>
+	<li>Brak błędów walidacji lub komunikatów o niepoprawnych danych</li>
+</ul>
+
+
+<h3><a name="ActualResult%2FRzeczywistyrezultat%3A"></a>Actual Result / Rzeczywisty rezultat:</h3>
+
+<ul>
+	<li>Formularz został poprawnie wypełniony i przesłany</li>
+	<li>Wyświetlono potwierdzenie udziału w ankiecie</li>
+	<li>Brak błędów lub nieprawidłowości</li>
+</ul>
+
+
+<p><b>Status:</b> Pass</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://padamus.atlassian.net/browse/QMTP-1">QMTP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://padamus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QMTP-12]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-12">Weryfikacja działania ankiety „Win a Samsung Galaxy S10 smartphone” z pustymi danymi</a>
+            <span class="subText">
+               Utworzono: 08/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">W toku</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10015-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            altoro, bug, negative                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://padamus.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    QMTP-12.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-13">
+                     QMTP-13                 </a>
+            </td>
+            <td>
+                Weryfikacja walidacji pola e-mail w a...
+            </td>
+            <td>
+                W toku
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-11">
+                     <strike>QMTP-11</strike>                 </a>
+            </td>
+            <td>
+                Weryfikacja działania ankiety „Win a ...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10015-value" class="value" bgcolor="#ffffff" width="80%">      0|i0000j:
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10015-value" class="value" bgcolor="#ffffff" width="80%">          <span title="08/paź/25"><time datetime="2025-10-08">08/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Test Title:</b> Próba przesłania ankiety bez podania adresu e-mail </p>
+
+<p><b>Environment:</b> Firefox 140.0.4 (Windows 10) </p>
+
+<p><b>Test Data:</b></p>
+
+<ul>
+	<li>Pytanie 1:Yes</li>
+	<li>Pytanie 2: 18-24</li>
+	<li>Pytanie 3: Yes</li>
+	<li>Pytanie 4: Male</li>
+	<li>Pytanie 5:  Yes</li>
+	<li>Pytanie 6:  <em>(pozostawione puste)</em></li>
+</ul>
+
+
+<p><b>Preconditions / Warunki wstępne:</b> Użytkownik znajduje się na stronie głównej Altoro Mutual:<a href="https://demo.testfire.net/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://demo.testfire.net/</a> </p>
+
+<h3><a name="TestSteps%2FKrokitestowe%3A"></a>Test Steps / Kroki testowe:</h3>
+
+<ol>
+	<li>Otwórz stronę główną Altoro Mutual</li>
+	<li>Kliknij odnośnik do ankiety „Win a Samsung Galaxy S10 smartphone”</li>
+	<li>Wypełnij formularz zgodnie z danymi testowymi, pozostawiając pole e-mail puste</li>
+	<li>Kliknij przycisk „Submit”</li>
+</ol>
+
+
+<h3><a name="ExpectedResult%2FOczekiwanyrezultat%3A"></a>Expected Result / Oczekiwany rezultat:</h3>
+
+<ul>
+	<li>System powinien zablokować przesłanie formularza</li>
+	<li>Powinien pojawić się komunikat błędu informujący o konieczności podania adresu e-mail</li>
+</ul>
+
+
+<h3><a name="ActualResult%2FRzeczywistyrezultat%3A"></a>Actual Result / Rzeczywisty rezultat:</h3>
+
+<ul>
+	<li>Formularz został przesłany mimo braku adresu e-mail</li>
+	<li>Brak komunikatu walidacyjnego — możliwy brak kontroli poprawności danych</li>
+</ul>
+
+
+<p><b>Status:</b> Fail</p>
+
+<p><b>Severity:</b> Medium </p>
+
+<p><b>Priority:</b> Medium </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://padamus.atlassian.net/browse/QMTP-1">QMTP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://padamus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QMTP-13]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-13">Weryfikacja walidacji pola e-mail w ankiecie — wpisanie znaku specjalnego jako adresu</a>
+            <span class="subText">
+               Utworzono: 08/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">W toku</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10016-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            altoro, bug, edge-case                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://padamus.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    QMTP-13.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-12">
+                     QMTP-12                 </a>
+            </td>
+            <td>
+                Weryfikacja działania ankiety „Win a ...
+            </td>
+            <td>
+                W toku
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-11">
+                     <strike>QMTP-11</strike>                 </a>
+            </td>
+            <td>
+                Weryfikacja działania ankiety „Win a ...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10016-value" class="value" bgcolor="#ffffff" width="80%">      0|i0000b:
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10016-value" class="value" bgcolor="#ffffff" width="80%">          <span title="08/paź/25"><time datetime="2025-10-08">08/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Test Title:</b> Próba przesłania ankiety z użyciem znaku specjalnego jako adresu e-mail</p>
+
+<p><b>Environment:</b> Firefox 140.0.4 (Windows 10) </p>
+
+<p><b>Test Data:</b></p>
+
+<ul>
+	<li>Pytanie 1:Yes</li>
+	<li>Pytanie 2: 18-24</li>
+	<li>Pytanie 3: Yes</li>
+	<li>Pytanie 4: Male</li>
+	<li>Pytanie 5:  Yes</li>
+	<li>Pytanie 6:  #</li>
+</ul>
+
+
+<p><b>Preconditions / Warunki wstępne:</b> Użytkownik znajduje się na stronie głównej Altoro Mutual:<a href="https://demo.testfire.net/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://demo.testfire.net/</a> </p>
+
+<h3><a name="TestSteps%2FKrokitestowe%3A"></a>Test Steps / Kroki testowe:</h3>
+
+<ol>
+	<li>Otwórz stronę główną Altoro Mutual</li>
+	<li>Kliknij odnośnik do ankiety „Win a Samsung Galaxy S10 smartphone”</li>
+	<li>Wypełnij formularz zgodnie z danymi testowymi</li>
+	<li>Kliknij przycisk „Submit”</li>
+</ol>
+
+
+<h3><a name="ExpectedResult%2FOczekiwanyrezultat%3A"></a>Expected Result / Oczekiwany rezultat:</h3>
+
+<ul>
+	<li>System powinien zablokować przesłanie formularza</li>
+	<li>Powinien pojawić się komunikat błędu informujący o konieczności podania poprawnego adresu e-mail</li>
+</ul>
+
+
+<h3><a name="ActualResult%2FRzeczywistyrezultat%3A"></a>Actual Result / Rzeczywisty rezultat:</h3>
+
+<ul>
+	<li>Formularz został przesłany mimo formatu adresu e-mail</li>
+	<li>Brak komunikatu walidacyjnego — możliwy brak kontroli poprawności danych</li>
+</ul>
+
+
+<p><b>Status:</b> Fail</p>
+
+<p><b>Severity:</b> Medium </p>
+
+<p><b>Priority:</b> Medium </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://padamus.atlassian.net/browse/QMTP-1">QMTP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://padamus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QMTP-14]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-14">Weryfikacja funkcji &quot;Subscribe&quot; na stronie Altoro Mutual</a>
+            <span class="subText">
+               Utworzono: 09/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                                    &nbsp;Rozwiązane: 09/paź/25
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Gotowe</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Gotowe
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10033-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            altoro, positive                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-16">
+                     <strike>QMTP-16</strike>                 </a>
+            </td>
+            <td>
+                Weryfikacja funkcji &quot;Subscribe&quot; – błę...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-15">
+                     <strike>QMTP-15</strike>                 </a>
+            </td>
+            <td>
+                Weryfikacja funkcji &quot;Subscribe&quot; na st...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10033-value" class="value" bgcolor="#ffffff" width="80%">      0|hzzzzz:i
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10033-value" class="value" bgcolor="#ffffff" width="80%">          <span title="09/paź/25"><time datetime="2025-10-09">09/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Test Title:</b> Subskrypcja newslettera z poprawnym formatem adresu e-mail</p>
+
+<p> <b>Environment:</b> Firefox 140.0.4 (Windows 10)</p>
+
+<p> <b>Test Data:</b></p>
+
+<ul>
+	<li><b>Email:</b> jan.kowalski@example.com</li>
+</ul>
+
+
+<p><b>Preconditions / Warunki wstępne:</b> Użytkownik znajduje się na stronie Altoro Mutual i widzi formularz subskrypcji</p>
+
+<h3><a name="TestSteps%2FKrokitestowe%3A"></a>Test Steps / Kroki testowe:</h3>
+
+<ol>
+	<li>Otwórz stronę Altoro Mutual: <a href="https://demo.testfire.net/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://demo.testfire.net/</a></li>
+	<li>Zlokalizuj sekcję „Subscribe” która znajduje się po lewej stronie strony w sekcji “INSIDE ALTORO MUTUAL”</li>
+	<li>Wpisz poprawny adres e-mail: <a href="mailto:jan.kowalski@example.com" class="external-link" rel="nofollow noreferrer">jan.kowalski@example.com</a></li>
+	<li>Kliknij przycisk „Subscribe”</li>
+	<li>Obserwuj reakcję systemu</li>
+</ol>
+
+
+<h3><a name="ExpectedResult%2FOczekiwanyrezultat%3A"></a>Expected Result / Oczekiwany rezultat:</h3>
+
+<ul>
+	<li>Formularz akceptuje poprawny adres e-mail</li>
+	<li>Wyświetla się komunikat potwierdzający subskrypcję (np. „Thank you. Your email “__“ has been accepted.”)</li>
+	<li>Brak błędów walidacji lub komunikatów o niepoprawnym formacie</li>
+</ul>
+
+
+<h3><a name="ActualResult%2FRzeczywistyrezultat%3A"></a>Actual Result / Rzeczywisty rezultat:</h3>
+
+<ul>
+	<li>Adres e-mail został poprawnie zaakceptowany</li>
+	<li>Wyświetlono potwierdzenie subskrypcji</li>
+	<li>Formularz działa zgodnie z oczekiwaniami</li>
+</ul>
+
+
+<p> <b>Status:</b> Pass</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://padamus.atlassian.net/browse/QMTP-1">QMTP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://padamus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QMTP-15]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-15">Weryfikacja funkcji &quot;Subscribe&quot; na stronie Altoro Mutual z niepoprawnym formatem adresu e-mail</a>
+            <span class="subText">
+               Utworzono: 09/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                                    &nbsp;Rozwiązane: 09/paź/25
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Gotowe</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Gotowe
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10034-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            altoro, negative                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-14">
+                     <strike>QMTP-14</strike>                 </a>
+            </td>
+            <td>
+                Weryfikacja funkcji &quot;Subscribe&quot; na st...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-16">
+                     <strike>QMTP-16</strike>                 </a>
+            </td>
+            <td>
+                Weryfikacja funkcji &quot;Subscribe&quot; – błę...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10034-value" class="value" bgcolor="#ffffff" width="80%">      0|hzzzzz:6
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10034-value" class="value" bgcolor="#ffffff" width="80%">          <span title="09/paź/25"><time datetime="2025-10-09">09/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Test Title:</b> Subskrypcja newslettera z niepoprawnym formatem adresu e-mail i komunikatem walidacyjnym <b>Environment:</b> Firefox 140.0.4 (Windows 10) </p>
+
+<p><b>Test Data:</b></p>
+
+<ul>
+	<li><b>Email:</b> jan.kowalski@ <em>(brak domeny)</em></li>
+</ul>
+
+
+<p><b>Preconditions / Warunki wstępne:</b> Użytkownik znajduje się na stronie Altoro Mutual i widzi formularz subskrypcji</p>
+
+<h3><a name="TestSteps%2FKrokitestowe%3A"></a>Test Steps / Kroki testowe:</h3>
+
+<ol>
+	<li>Otwórz stronę Altoro Mutual</li>
+	<li>Zlokalizuj sekcję „Subscribe” która znajduje się po lewej stronie strony w sekcji “INSIDE ALTORO MUTUAL”</li>
+	<li>Wpisz niepoprawny adres e-mail: jan.kowalski@</li>
+	<li>Kliknij przycisk „Subscribe”</li>
+	<li>Obserwuj reakcję systemu</li>
+</ol>
+
+
+<h3><a name="ExpectedResult%2FOczekiwanyrezultat%3A"></a>Expected Result / Oczekiwany rezultat:</h3>
+
+<ul>
+	<li>System rozpoznaje niepoprawny format adresu e-mail</li>
+	<li>Wyświetla się popup z komunikatem: <b>"Your email address does not appear to be valid. Please try again."</b></li>
+	<li>Formularz nie zostaje przesłany</li>
+</ul>
+
+
+<h3><a name="ActualResult%2FRzeczywistyrezultat%3A"></a>Actual Result / Rzeczywisty rezultat:</h3>
+
+<ul>
+	<li>Po kliknięciu „Subscribe” pojawia się popup z komunikatem: <b>"Your email address does not appear to be valid. Please try again."</b></li>
+	<li>Formularz nie został przesłany</li>
+	<li>Walidacja działa poprawnie</li>
+</ul>
+
+
+<p><b>Status:</b> Pass</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://padamus.atlassian.net/browse/QMTP-1">QMTP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://padamus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QMTP-16]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-16">Weryfikacja funkcji &quot;Subscribe&quot; – błędny adres e-mail z nietypowymi znakami</a>
+            <span class="subText">
+               Utworzono: 09/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                                    &nbsp;Rozwiązane: 09/paź/25
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Gotowe</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Zadanie
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Low
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Gotowe
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10035-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            altoro, edge-case                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Łącza zgłoszeń:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Relates</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-14">
+                     <strike>QMTP-14</strike>                 </a>
+            </td>
+            <td>
+                Weryfikacja funkcji &quot;Subscribe&quot; na st...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+            <tr>
+            <td>
+                relates to
+            </td>
+            <td>
+                <a href="https://padamus.atlassian.net/browse/QMTP-15">
+                     <strike>QMTP-15</strike>                 </a>
+            </td>
+            <td>
+                Weryfikacja funkcji &quot;Subscribe&quot; na st...
+            </td>
+            <td>
+                Gotowe
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10035-value" class="value" bgcolor="#ffffff" width="80%">      0|hzzzzz:d
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10035-value" class="value" bgcolor="#ffffff" width="80%">          <span title="09/paź/25"><time datetime="2025-10-09">09/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Test Title:</b> Subskrypcja newslettera z niepoprawnym formatem adresu e-mail i komunikatem walidacyjnym <b>Environment:</b> Firefox 140.0.4 (Windows 10)</p>
+
+<h3><a name="TestData%3A"></a><b>Test Data:</b></h3>
+
+<ul>
+	<li><b>Email:</b> @!@email.com (<em>nietypowy, niepoprawny format)</em></li>
+</ul>
+
+
+<h3><a name="Preconditions%2FWarunkiwst%C4%99pne%3A"></a><b>Preconditions / Warunki wstępne:</b></h3>
+
+<p>Użytkownik znajduje się na stronie Altoro Mutual i widzi formularz subskrypcji</p>
+
+<h3><a name="TestSteps%2FKrokitestowe%3A"></a><b>Test Steps / Kroki testowe:</b></h3>
+
+<ol>
+	<li>Otwórz stronę Altoro Mutual: <a href="https://demo.testfire.net/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://demo.testfire.net/</a></li>
+	<li>Zlokalizuj sekcję „Subscribe”, która znajduje się po lewej stronie strony w sekcji “INSIDE ALTORO MUTUAL”</li>
+	<li>Wpisz nietypowy adres e-mail: @!@email.com</li>
+	<li>Kliknij przycisk „Subscribe”</li>
+	<li>Obserwuj reakcję systemu</li>
+</ol>
+
+
+<h3><a name="ExpectedResult%2FOczekiwanyrezultat%3A"></a><b>Expected Result / Oczekiwany rezultat:</b></h3>
+
+<ul>
+	<li>System rozpoznaje niepoprawny format adresu e-mail</li>
+	<li>Wyświetla się popup z komunikatem: <b>"Your email can only contain alphanumeric</b><br/>
+<b>characters and the following:  @.%</b>-<b>"</b></li>
+	<li>Formularz nie zostaje przesłany</li>
+</ul>
+
+
+<h3><a name="ActualResult%2FRzeczywistyrezultat%3A"></a><b>Actual Result / Rzeczywisty rezultat:</b></h3>
+
+<ul>
+	<li>Po kliknięciu „Subscribe” pojawia się popup z komunikatem: <b>"Your email can only contain alphanumeric characters and the following:  @.%-"</b></li>
+	<li>Formularz nie został przesłany</li>
+	<li>Walidacja działa poprawnie</li>
+</ul>
+
+
+<p><b>Status:</b> Pass</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://padamus.atlassian.net/browse/QMTP-1">QMTP-1</a>)</span>
+                <h3 class="formtitle"><img src="https://padamus.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [QMTP-17]&nbsp;<a href="https://padamus.atlassian.net/browse/QMTP-17">Weryfikacja strony „Retirement Solutions” — nieprawidłowe otwarcie strony w oknie wewnętrznym</a>
+            <span class="subText">
+               Utworzono: 09/paź/25                   &nbsp;Zaktualizowano: 09/paź/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">W toku</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/secure/BrowseProject.jspa?id=10001">QA-Manual-Testing-Portfolio</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Ma wpływ na wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersje do poprawienia:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Element nadrzędny:</b></td>
+        <td width="80%"><a href="https://padamus.atlassian.net/browse/QMTP-1">Testowanie funkcjonalne strony Altoro Manual</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Błąd
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_reporter_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                id="word_assignee_712020:af9d9afa-6831-497d-962f-76a28771be9f"
+                href="https://padamus.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aaf9d9afa-6831-497d-962f-76a28771be9f">
+                    p Ad
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-10036-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            altoro, bug                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostałe oszacowanie:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Załączniki:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://padamus.atlassian.net/images/icons/attach/image.gif" height="16" width="16" border="0" alt="Plik PNG">
+                    QMP-17.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Rank:</b></td>
+                <td id="customfield_10019-10036-value" class="value" bgcolor="#ffffff" width="80%">      0|i00009:9
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10015-10036-value" class="value" bgcolor="#ffffff" width="80%">          <span title="09/paź/25"><time datetime="2025-10-09">09/paź/25</time></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Opis</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p><b>Test Title:</b> Weryfikacja strony „Retirement Solutions” — odnośnik powoduje duplikację strony wewnątrz strony </p>
+
+<p><b>Environment:</b> Firefox 140.0.4 (Windows 10)</p>
+
+<p><b>Test Data:</b> Brak danych wejściowych — test dotyczy nawigacji i renderowania</p>
+
+<p><b>Preconditions / Warunki wstępne:</b> Użytkownik znajduje się na stronie głównej Altoro Mutual</p>
+
+<h3><a name="TestSteps%2FKrokitestowe%3A"></a><b>Test Steps / Kroki testowe:</b></h3>
+
+<ol>
+	<li>Otwórz stronę główną Altoro Mutual: <a href="https://demo.testfire.net/" title="smart-link" class="external-link" rel="nofollow noreferrer">https://demo.testfire.net/</a></li>
+	<li>Kliknij odnośnik „Retirement Solutions” znajdujący się na stronie głównej</li>
+	<li>Zweryfikuj wizualnie, czy strona ładuje się poprawnie</li>
+	<li>Kliknij odnośnik na stronie “contact Altoro Mutual”</li>
+	<li>Obserwuj zachowanie interfejsu po kliknięciu</li>
+</ol>
+
+
+<h3><a name="ExpectedResult%2FOczekiwanyrezultat%3A"></a><b>Expected Result / Oczekiwany rezultat:</b></h3>
+
+<ul>
+	<li>Strona „Retirement Solutions” ładuje się poprawnie</li>
+	<li>Kliknięcie odnośnika prowadzi do nowej, pełnej podstrony lub przekierowania</li>
+	<li>Interfejs pozostaje jednolity — bez duplikacji strony w obrębie strony</li>
+</ul>
+
+
+<h3><a name="ActualResult%2FRzeczywistyrezultat%3A"></a><b>Actual Result / Rzeczywisty rezultat:</b></h3>
+
+<ul>
+	<li>Strona „Retirement Solutions” ładuje się poprawnie — wizualna weryfikacja pozytywna</li>
+	<li>Po kliknięciu odnośnika następuje <b>duplikacja strony Altoro Mutual w obrębie tej samej strony</b></li>
+	<li>Powstaje efekt „okna w oknie” — strona ładuje się jako  zagnieżdżona kopia</li>
+	<li>Interfejs wygląda jakby dwie strony Altoro Mutual były osadzone jedna w drugiej</li>
+</ul>
+
+
+<p><b>Status:</b> Fail</p>
+
+<p><b>Severity:</b> High</p>
+
+<p><b>Priority:</b> High</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Thu Oct 09 02:31:39 UTC 2025) przez p Ad z użyciem systemu Jira 1001.0.0-SNAPSHOT#100290-rev:d7cdb9e836f3a625612c2e8e3dc278d686704ef9.
+
+</body>
+</html>
