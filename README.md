@@ -9,7 +9,7 @@ Ale to nie wszystko! Równocześnie uczę się też testów API, SQL i automatyz
 <h2>👨‍💻 Projekty </h2>
 
 - <b>Testy manualne</b>
-  - [Projekt testu ]()
+  - [Projekty testów manualnych]()
 - <b>Testy API</b>
   - [Projekt testu API](https://github.com/PAdamus07/Portfolio-QA/tree/main/API-Portfolio)
 - <b>Testy baz danych</b>
