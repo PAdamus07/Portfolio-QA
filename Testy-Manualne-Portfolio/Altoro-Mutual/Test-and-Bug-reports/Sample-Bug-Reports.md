@@ -4,7 +4,7 @@
 
 ## Bug Report: QMTP-5 — Niedostępny zasób po kliknięciu „Online Banking”
 
-[Screenshot](https://i.imgur.com/jI7psT1.png)
+![Screenshot](https://i.imgur.com/jI7psT1.png)
 
 **ID:** QMTP-5 
 **Moduł:** Strona główna / Nawigacja  
@@ -24,13 +24,12 @@
 ### Rzeczywisty rezultat:
 
 - Użytkownik zostaje przekierowany, ale zasób jest niedostępny  
-- Brak komunikatu błędu lub alternatywnego przekierowania
 
 ---
 
 ## Bug Report: QMTP-7 — Nieczytelne wartości w kolumnie „Debits” konta „800000 Corporate”
 
-[Screenshot](https://i.imgur.com/hNbPKsd.png)
+![Screenshot](https://i.imgur.com/hNbPKsd.png)
 
 **ID:** QMTP-7 
 **Moduł:** Konto użytkownika / Account History  
