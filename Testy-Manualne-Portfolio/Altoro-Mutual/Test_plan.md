@@ -48,7 +48,7 @@ Testowane obszary:
 
 ##  Struktura projektu
 
-- Testy i raporty błędów: `/Test-and-Bug-reports/TestCases-and-Bugs.doc`  
+- Testy i raporty błędów: `/Test-and-Bug-reports/Jira.doc`,   
 - Zrzuty ekranu błędów: `/bug-screenshots`  
 - Dokument README: `README.md`  
 - Plan testów: `Test_plan.md`
