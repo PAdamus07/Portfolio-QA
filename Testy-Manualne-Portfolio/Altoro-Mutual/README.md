@@ -18,8 +18,8 @@ Każdy przypadek testowy zawiera dane testowe, kroki, oczekiwany i rzeczywisty r
 ## 📂 Zasoby projektu
 
 - 📸 Zrzuty ekranu błędów: [`/bug-screenshots`](https://github.com/PAdamus07/Portfolio-QA/tree/main/Testy-Manualne-Portfolio/Altoro-Mutual/bug-screenshots)  
-- 📄 Dokument z testami i raportami błędów: [`/Test-and-Bug-reports/TestCases-and-Bugs.doc`](https://github.com/PAdamus07/Portfolio-QA/tree/main/Testy-Manualne-Portfolio/Altoro-Mutual/Test-and-Bug-reports)
-- 📑 Plan testów: `Test_plan.md`
+- 📄 Dokument z testami i raportami błędów: [`/Test-and-Bug-reports`](https://github.com/PAdamus07/Portfolio-QA/tree/main/Testy-Manualne-Portfolio/Altoro-Mutual/Test-and-Bug-reports)
+- 📑 Plan testów: [`Test_plan.md`](https://github.com/PAdamus07/Portfolio-QA/blob/main/Testy-Manualne-Portfolio/Altoro-Mutual/Test_plan.md)
   
 ---
 
